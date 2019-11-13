@@ -1,0 +1,64 @@
+create or replace procedure spv_valida_sinonimo wrapped 
+a000000
+367
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+7
+26d 207
+66dCOkYnA32q8fD2XXyVH4KuF3owgxDIDEgVfC9AmLk+ycFpAftWbU2R08QabNyO2t6Tk/tf
+qz7b871NmdHrgtLncdi3iYA1J2OzhUEHc3OqBETLx4bjNVxIPd/XA+nl5dh86WFlK03biVvP
+/NXcEDm98G5/8JKkpTZo4RSXveDRN8b54+krmrmfOcHCwCYanO3zEptX3HDn3zhKRp8lRWof
+vnRKE7Q/X+Es4K9mlF9BUmlwzTJHyE7B4l0hkXwUWyKseZdML/GXVHAAa7ZyACso1fBAOHZA
+48c+dPqrUXzMw4+cJXue/eZyuTEHEy5Uy4D2DnwOJMLlPKkHnsLgmLWiTnTeYldEEgvcVogw
+vHJx0Ab0w3uxTquLyV538JvYTbJonLvlW9kNkzWEsksFTFi1BQ48g50OLEBME3BmSaUzNRWy
+Vnir8l4BA3GEe08eAoeEnkKeMntq2OoB4uvgNxijY/hkK8W+ya34lGDjY6wfbeO1xoi/W3ia
+GSEttw==
+
+/
+show errors
+create or replace procedure spv_valida_esquema_usr_invitado wrapped 
+a000000
+367
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+7
+476 2c9
+1TMVjUtw/BfJxM0UEd5v8zubdEkwg/DD2UoTfI7NI7wGucqU/FmM0eWiTHzbkDVsn9Q55dhW
+xFSkFByIdMzVQxeSsnNGOi2HHKEOLiznvVK5Hm7Hsv3/esIYV/sDBdntlyWioXlBq5DVMXXy
+6JUiO1wJrJbipuApUgZAkUQt2e0SnHLNsU7EAwEfGDbud0y3DH/Q6SGJbkRnjIFi7gvSqOBr
+EvuauCRvSeSnaDqOjDCZ0y+WRoZ6W6ipyPqfTQAv9dgUvv9OHiAwr4aG5Ndmrh/UVIJZM96F
+YM+QA1Z0vMF+VQ25BuAx0HquzVMxlhfG0e+yt/xp0sqfEW14LfVEBmsAjXPLSG79F6yBI1Zr
+NR9P2VHiQardXl48np/lCQ6CEVmM5aBGhsB2FvJa0knYzuzsezvYk3iBD9gFEFla72cjmrXb
+RWJYwGCRcFk/F59mPJ7MXPip5Ueg+wEllkTJdbVdgy3syJS6UuYkGbZ6as0TLMja4YkCVMuf
+rtia0UAHakitgFp+PowFgefK5s5fSjcH42nQdCGWVCVP6yY+pDMfuvzDH6ubwbvJS++zyI05
+oDEp5TJDlONlEyMXMs3LWwoqLS5gW/2KXvYDqQ9se143/8NBx/wykwGdy4mrmDedwGOlLW2d
+yWFsGgf0a9Xt3cbBtG93X5cxWwUYOb487rj5R0Ukr5RrCkNtT0lL5s4=
+
+/
+show errors
