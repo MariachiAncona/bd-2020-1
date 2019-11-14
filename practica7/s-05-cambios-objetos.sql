@@ -17,7 +17,7 @@ alter table cuenta drop column es_ahorro;
 alter table cuenta drop column es_inversion;
 
 
-alter table cuenta add (tipo_cuenta varchar2(1));
+alter table cuenta add (tipo_cuenta char(1));
 
 alter table cuenta add constraint cuenta_tipo_cuenta_chk check(tipo_cuenta in('I','A'));
 
