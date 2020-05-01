@@ -41,6 +41,3 @@ grant p0701_guest_rol, create procedure, create sequence to jos_p0701_invitado;
 
 prompt LISTO!
 disconnect;
-
-
-
