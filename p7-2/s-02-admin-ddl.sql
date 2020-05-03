@@ -4,7 +4,7 @@
 
 
 prompt Proporcionar el password del usuario jos_p0701_admin:
-connect jos_p0701_admin
+connect jos_p0701_admin/jair
 
 create table estudiante(
     estudiante_id number(10,0) constraint estudiante_pk primary key,

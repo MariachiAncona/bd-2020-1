@@ -1,10 +1,10 @@
 
---@Autor(es):       Jorge Rodríguez
---@Fecha creación:  dd/mm/yyyy
---@Descripción:    Práctica 07 Complementaria - Caso 1
+--@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo
+--@Fecha creación:  27/04/2020
+--@Descripción:    Práctica 07 Complementaria - Caso pizzeria
 
-Prompt conectando  jrc_P0701_oper
-connect jrc_P0701_oper/jorge
+prompt Conectando como usuario admin
+connect jos_p0701_oper/jair
 
 -- 
 -- sequence: seq_empleado 
