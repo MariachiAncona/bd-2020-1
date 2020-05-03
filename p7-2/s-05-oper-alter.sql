@@ -5,7 +5,24 @@
 prompt Comentanto como usuario jos_p0107_oper
 connect jos_p0107_oper/jair
 
-prompt Cambio para que una pizzeria pueda tener 2 roles
+prompt Cambio para que una pizzeria pueda tener 2 roles:
+
+alter table pizzeria drop column tipo;
+alter table pizzeria add (es_almacen number(1,0));
+alter table pizzeria add (es_sucursal number(1,0));
+alter table pizzeria add constraint pizzeria_es_almacen_o_sucursal_chk check(
+    (es_sucursal = 1 and es_almacen = 1)or
+    (es_sucursal = 1 and es_almacen =0 ) or
+    (es_sucursal = 0 and es_almacen =1 )) 
+
+prompt Cambio para calumnos ap_pat y ap_mat:
+
+alter table empleado drop column ap_pat;
+alter table empleado drop column ap_mat;
+alter table empleado add (ap_paterno varchar2(40) not null);
+alter table empleado add (ap_materno varchar2(40) );
+
+prompt cambio de status_id a status_pedido_id:
 
 
 
