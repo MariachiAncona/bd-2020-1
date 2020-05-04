@@ -15,9 +15,9 @@ create table estudiante(
     tipo char(1) not null,
     constraint estudiante_tipo_chk check(tipo='R' or tipo='O'),
     constraint estudiante_num_cuenta_chk check(
-            (tipo='R' and num_cuenta like '30%')or
-            (tipo='O' and num_cuenta like '31%')
-    )
+            (tipo='R' and num_cuenta like '31%')or
+            (tipo='O' and num_cuenta like '30%')),
+    constraint estudiante_num_cuenta_uk unique (num_cuenta)
 );
 
 prompt Ya creo estudiante
@@ -27,8 +27,8 @@ create table asignatura(
     nombre varchar2(40) not null,
     clave number(4,0) not null,
     creditos number(2,0) not null,
-    asignatura_requerida number(10,0),
-    constraint asignatura_asignatura_requerida_fk foreign key(asignatura_requerida)
+    asignatura_requerida_id number(10,0),
+    constraint asignatura_asignatura_requerida_id_fk foreign key(asignatura_requerida)
     references asignatura(asignatura_id),
     constraint asignatura_clave_uk unique(clave)
 );
@@ -64,7 +64,7 @@ create table oyente_asignatura(
     fecha_aprobacion date default sysdate not null,
     calificacion number(2,0),
     constraint oyente_asignatura_estudiante_id_fk foreign key(estudiante_id)
-    references estudiante(estudiante_id),
+    references oyente(estudiante_id),
     constraint oyente_asignatura_asignatura_id_fk foreign key(asignatura_id)
     references asignatura(asignatura_id),
     constraint oyente_asignatura_pk primary key (estudiante_id,asignatura_id),
