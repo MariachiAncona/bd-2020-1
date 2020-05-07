@@ -28,7 +28,8 @@ create table asignatura(
     clave number(4,0) not null,
     creditos number(2,0) not null,
     asignatura_requerida_id number(10,0),
-    constraint asignatura_asignatura_requerida_id_fk foreign key(asignatura_requerida)
+    constraint asignatura_asignatura_requerida_id_fk 
+    foreign key(asignatura_requerida_id)
     references asignatura(asignatura_id),
     constraint asignatura_clave_uk unique(clave)
 );
@@ -42,7 +43,8 @@ create table oyente(
     constraint oyente_estudiante_id_fk foreign key(estudiante_id)
     references estudiante(estudiante_id),
     constraint oyente_pk primary key(estudiante_id),
-    constraint oyente_suma_recursamiento_extraordinario_chk check(num_recursamientos+num_extraordinarios<=10)
+    constraint oyente_suma_recursamiento_extraordinario_chk 
+    check(num_recursamientos+num_extraordinarios<=10)
 );
 
 prompt Ya creo oyente
@@ -68,7 +70,8 @@ create table oyente_asignatura(
     constraint oyente_asignatura_asignatura_id_fk foreign key(asignatura_id)
     references asignatura(asignatura_id),
     constraint oyente_asignatura_pk primary key (estudiante_id,asignatura_id),
-    constraint oyente_asignatura_calificacion_chk check(calificacion>=5 and calificacion<=10)
+    constraint oyente_asignatura_calificacion_chk 
+    check(calificacion>=5 and calificacion<=10)
 );
 
 prompt Ya creo oyente_asignatura
@@ -93,10 +96,9 @@ on estudiante(substr(num_cuenta,3,8));
 prompt Ya creo indice num_cuenta
 
 create index asignatura_requerida_id_ix 
-on asignatura(asignatura_requerida);
+on asignatura(asignatura_requerida_id);
 
 prompt Ya creo indice asignatura_requerida
-
 
 create or replace view v_estudiante(
     estudiante_id,nombre,semestre,num_cuenta 
@@ -110,6 +112,7 @@ prompt Ya creo v_estudiante
 
 prompt Listo!
 disconnect;
+/
 
 
 
