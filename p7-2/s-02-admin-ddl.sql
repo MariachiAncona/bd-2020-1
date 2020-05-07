@@ -1,10 +1,10 @@
---@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo
+--@Autor(es):       Ramírez Ancona Simón Eduardo
 --@Fecha creación:  27/04/2020
 --@Descripción:     Creación de usuarios y roles 
 
 
-prompt Proporcionar el password del usuario jos_p0701_admin:
-connect jos_p0701_admin/jair
+prompt Proporcionar el password del usuario sra_p0701_admin:
+connect sra_p0701_admin/simon
 
 create table estudiante(
     estudiante_id number(10,0) constraint estudiante_pk primary key,

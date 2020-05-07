@@ -1,10 +1,10 @@
 
---@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo
+--@Autor(es):       Ramírez Ancona Simón Eduardo
 --@Fecha creación:  27/04/2020
 --@Descripción:    Práctica 07 Complementaria - Caso pizzeria
 
 prompt Conectando como usuario admin
-connect jos_p0701_oper/jair
+connect sra_p0701_oper/simon
 
 -- 
 -- sequence: seq_empleado 

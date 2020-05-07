@@ -1,4 +1,4 @@
-connect jos_p0701_oper/jair
+connect sra_p0701_oper/simon
 
 alter table empleado drop constraint pizzeria_empleado_id_fk;
 alter table pizzeria drop constraint empleado_pizzeria_id_fk;

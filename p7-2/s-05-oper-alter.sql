@@ -1,9 +1,9 @@
---@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo
+--@Autor(es):       Ramírez Ancona Simón Eduardo
 --@Fecha creación:  27/04/2020
 --@Descripción:    Script que realiza cambios en caso de pizzeria
 
-prompt Conectando como usuario jos_p0701_oper
-connect jos_p0701_oper/jair
+prompt Conectando como usuario sra_p0701_oper
+connect sra_p0701_oper/simon
 
 prompt Cambio para que una pizzeria pueda tener 2 roles
 

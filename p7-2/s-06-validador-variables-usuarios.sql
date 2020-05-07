@@ -1,4 +1,5 @@
---@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo
+--@Autor(es):       Ramírez Ancona Simón Eduardo (Solo se cambiaron 
+--                  las variables)
 --@Fecha creación:  27/04/2020
 --@Descripción:     Script empleado para configurar usuarios y passwords.
 --                  En la práctica, no se deben guardar passwords en los
@@ -16,22 +17,22 @@ define sys_pwd=system
 
 --username del usuario del previo
 --define p7_previo_usr=sra_p07_previo
-define p7_previo_usr=jos_p0701_previo
+define p7_previo_usr=sra_p0701_previo
 --password del usuario del previo
 --define p7_previo_usr_pwd=simon
-define p7_previo_usr_pwd=jair
+define p7_previo_usr_pwd=simon
 
 --username del usuario admin
-define p7_usr_admin=jos_p0701_admin
+define p7_usr_admin=sra_p0701_admin
 --password del usuario admin
-define p7_usr_admin_pwd=jair
+define p7_usr_admin_pwd=simon
 
 --username del usuario admin
-define p7_usr_oper=jos_p0701_oper
+define p7_usr_oper=sra_p0701_oper
 --password del usuario admin
-define p7_usr_oper_pwd=jair
+define p7_usr_oper_pwd=simon
 
 --username del usuario invitado
-define p7_usr_invitado=jos_p0701_invitado
+define p7_usr_invitado=sra_p0701_invitado
 --password del usuario invitado
-define p7_usr_invitado_pwd=jair
+define p7_usr_invitado_pwd=simon
