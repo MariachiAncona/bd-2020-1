@@ -16,9 +16,9 @@ whenever sqlerror exit rollback
 define sys_pwd=system
 
 --username del usuario del previo
-define p7_previo_usr=sra_p07_previo
+define p7_previo_usr=jos_p07_previo
 --password del usuario del previo
-define p7_previo_usr_pwd=simon
+define p7_previo_usr_pwd=jair
 
 
 --username del usuario admin
@@ -34,4 +34,8 @@ define p7_usr_oper_pwd=simon
 --username del usuario invitado
 define p7_usr_invitado=sra_p0701_invitado
 --password del usuario invitado
+<<<<<<< HEAD
 define p7_usr_invitado_pwd=simon
+=======
+define p7_usr_invitado_pwd=jair
+>>>>>>> caeda49b099f4e821eab918c92fc30eb95826def

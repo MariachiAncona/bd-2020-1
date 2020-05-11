@@ -28,8 +28,12 @@ create table asignatura(
     clave number(4,0) not null,
     creditos number(2,0) not null,
     asignatura_requerida_id number(10,0),
+<<<<<<< HEAD
     constraint asignatura_asignatura_requerida_id_fk 
     foreign key(asignatura_requerida_id)
+=======
+    constraint asignatura_asignatura_requerida_id_fk foreign key(asignatura_requerida_id)
+>>>>>>> caeda49b099f4e821eab918c92fc30eb95826def
     references asignatura(asignatura_id),
     constraint asignatura_clave_uk unique(clave)
 );
@@ -98,7 +102,7 @@ prompt Ya creo indice num_cuenta
 create index asignatura_requerida_id_ix 
 on asignatura(asignatura_requerida_id);
 
-prompt Ya creo indice asignatura_requerida
+prompt Ya creo indice asignatura_requerida_id
 
 create or replace view v_estudiante(
     estudiante_id,nombre,semestre,num_cuenta 
