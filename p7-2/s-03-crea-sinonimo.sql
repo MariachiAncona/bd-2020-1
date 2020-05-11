@@ -1,4 +1,4 @@
---@Autor(es):       Eliezer simon Ochoa Santos, Ramírez Ancona Simón Eduardo
+--@Autor(es):       Ramírez Ancona Simón Eduardo
 --@Fecha creación:  27/04/2020
 --@Descripción:     Creación de sinonimos
 
