@@ -6,7 +6,8 @@ prompt Conectando como sys para crear usuarios
 connect sys as sysdba
 
 prompt Creando usuario josr_p0802_cuentas
-create user josr_p0802_cuentas identified by josr;
+create user josr_p0802_cuentas identified by josr
+quota unlimited on users;
 
 prompt Asignando privilegios a josr_p0802_cuentas;
 grant create session, create procedure, create sequence, create table
