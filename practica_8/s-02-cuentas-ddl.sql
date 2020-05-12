@@ -222,5 +222,6 @@ create sequence hist_estatus_cta_seq
     noorder
 ;
 
-
+disconnect
+/
 

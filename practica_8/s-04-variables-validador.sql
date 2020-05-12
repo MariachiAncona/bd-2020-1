@@ -10,12 +10,12 @@
 --
 -- Nombre del usuario empleado en esta práctica
 --
-define p_usuario='jrc_p0802_cuentas'
+define p_usuario='josr_p0802_cuentas'
 
 --
 -- Password del usuario empleado en esta práctica
 --
-define p_usuario_pass='jorge'
+define p_usuario_pass='josr'
 
 
 --- ============= Las siguientes configuraciones ya no requieren cambiarse====
