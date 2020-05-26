@@ -28,5 +28,5 @@ prompt Se ejecuto con exito script s-03-fx-carga-inicial.sql
 commit;
 prompt Se realizo "commit"
 
-
+disconnect
 /

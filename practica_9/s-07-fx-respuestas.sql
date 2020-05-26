@@ -4,7 +4,7 @@
 
 create table consulta_1 as
 select id, nombre, clave, municipio,
-    to_char(ultima_revision,'dd/mm/yyyy hh24:mi:ss')|| 'hrs.' as
+    to_char(ultima_revision,'dd/mm/yyyy hh24:mi:ss')|| ' hrs.' as
     ULTIMA_REVISION
 from aeropuerto
 where tipo=lower('closed') and
