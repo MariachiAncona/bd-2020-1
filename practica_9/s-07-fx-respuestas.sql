@@ -10,3 +10,9 @@ from aeropuerto
 where tipo=lower('closed') and
     ultima_revision between to_date('01/10/2012','dd/mm/yyyy') and
     to_date('31/03/2015','dd/mm/yyyy');
+
+create table consulta_2 as
+select id, nombre, municipio, region_iso, elevacion*(3.281)
+    as ELEVACION_METROS
+from aeropuerto 
+where tipo= 'large_airport';    
