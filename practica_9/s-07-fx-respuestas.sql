@@ -16,3 +16,11 @@ select id, nombre, municipio, region_iso, elevacion*(3.281)
     as ELEVACION_METROS
 from aeropuerto 
 where tipo= 'large_airport';    
+
+
+create table consulta_3 as
+select nombre, trunc(latitud*(10002.29/90.00),4) as LAT_CARTESIANA, 
+    abs(trunc(longitud*(10002.29/90.00),4)) as LONG_CARTESIANA,
+    trunc(latitud,4) as LATITUD_GRADOS, trunc(longitud,4) as LONGITUD_GRADOS
+from aeropuerto 
+where region_iso=('MX-OAX');
