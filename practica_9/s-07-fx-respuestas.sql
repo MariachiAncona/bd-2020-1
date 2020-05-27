@@ -1,5 +1,5 @@
 --@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo 
---@Fecha creación:  25/05/2020
+--@Fecha creación:  26/05/2020
 --@Descripción:     Contiene todas las sentencias create table as select 
 
 create table consulta_1 as
@@ -79,7 +79,8 @@ create table consulta_7 as
 create table consulta_8 as
     select to_char(LPAD(id, 6, '0')||'-'
             || substr(region_iso,4, 3)|| '-'
-            || substr(upper(municipio), (length(upper(municipio)) - 1), 2)
+            || substr(upper(municipio), 
+                (length(upper(municipio)) - 1), 2)
             ) as FOLIO,
         region_iso, municipio, wikipedia_link
     from aeropuerto
