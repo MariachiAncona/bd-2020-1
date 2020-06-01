@@ -1,128 +1,122 @@
---@Autor:          Eliezer Jair Ochoa Santos
---@Fecha creación: 01/11/2019
---@Descripción:    Creacion de objeto
-
-prompt Proporcionar el password del usuario jos_p0703_admin
-connect jos_p0703_admin 
+--@Autor(es):       Ramírez Ancona Simón Eduardo
+--@Fecha creación:  27/04/2020
+--@Descripción:     Creación de usuarios y roles 
 
 
-Prompt Creacion de tabla cuenta 
+prompt Proporcionar el password del usuario sra_p0701_admin:
+connect sra_p0701_admin/simon
 
-create table cuenta(
-    cuenta_id number(35,0) not null constraint cuenta_pk primary key,
-    titular varchar2(100) not null,
-    rfc varchar2(13) not null,
-    num_cuenta varchar2(18) not null,
-    clave_sucursal varchar2(5) not null,
-    fecha_registro date default sysdate not null, 
-    fecha_baja date null,
-    saldo number(18,2) not null,
-    es_ahorro number(1,0) not null,
-    es_inversion number(1,0) not null,
-    cuenta_aval_id null,
-    constraint cuenta_aval_id_fk foreign key (cuenta_aval_id)
-    references cuenta(cuenta_id),
-    constraint cuenta_es_ahorro_o_inversion_chk check(
-    (es_ahorro = 1 and es_inversion = 1 and num_cuenta like 'INAH%')or
-    (es_ahorro = 1 and es_inversion =0 and num_cuenta like 'AH%' ) or
-    (es_ahorro = 0 and es_inversion =1 and num_cuenta like 'IN%')),
-    constraint cuenta_fecha_baja_chk check 
-    (fecha_baja >= add_months(fecha_registro,1)),
-    constraint cuenta_saldo_chk check(saldo > 1500)
+create table estudiante(
+    estudiante_id number(10,0) constraint estudiante_pk primary key,
+    nombre varchar2(40) not null, 
+    ap_paterno varchar2(40) not null,
+    ap_materno varchar2(40),
+    num_cuenta number(9,0) not null,
+    tipo char(1) not null,
+    constraint estudiante_tipo_chk check(tipo='R' or tipo='O'),
+    constraint estudiante_num_cuenta_chk check(
+            (tipo='R' and num_cuenta like '31%')or
+            (tipo='O' and num_cuenta like '30%')),
+    constraint estudiante_num_cuenta_uk unique (num_cuenta)
 );
 
-prompt Creacion de tabla movimiento_cuenta
+prompt Ya creo estudiante
 
-create table movimiento_cuenta(
-    num_movimiento number(18,0) not null,
-    importe number(18,0) not null,
-    tipo_movimiento char(1) not null,
-    concepto varchar2(50) null,
-    comprobante blob null,
-    fecha_movimiento date not null,
-    cuenta_id number(35,0) not null,
-    constraint cuenta_id_fk foreign key(cuenta_id) references 
-    cuenta(cuenta_id),
-    constraint movimiento_cuenta_pk primary key
-    (cuenta_id,num_movimiento)
+create table asignatura(
+    asignatura_id number(10,0) constraint asignatura_pk primary key,
+    nombre varchar2(40) not null,
+    clave number(4,0) not null,
+    creditos number(2,0) not null,
+    asignatura_requerida_id number(10,0),
+<<<<<<< HEAD
+    constraint asignatura_asignatura_requerida_id_fk 
+    foreign key(asignatura_requerida_id)
+=======
+    constraint asignatura_asignatura_requerida_id_fk foreign key(asignatura_requerida_id)
+>>>>>>> caeda49b099f4e821eab918c92fc30eb95826def
+    references asignatura(asignatura_id),
+    constraint asignatura_clave_uk unique(clave)
 );
 
-prompt creacion tabla cuenta_ahorro
+prompt Ya creo asignatura
 
-create table cuenta_ahorro(
-    cuenta_id number(35,0) not null constraint cuenta_ahorro_pk primary key,
-    num_tarjeta_debito varchar(16) not null 
-    constraint cuenta_ahorro_num_tarjeta_debito_uk unique,
-    retiro_max_cajero numeric(7,2) not null,
-    constraint cuenta_ahorro_id_fk foreign key(cuenta_id) references
-    cuenta(cuenta_id),
-    constraint cuenta_ahorro_retiro_chk check(retiro_max_cajero < 12500)
+create table oyente(
+    estudiante_id number(10,0),
+    num_recursamientos number(2,0) not null,
+    num_extraordinarios number(2,0) not null,
+    constraint oyente_estudiante_id_fk foreign key(estudiante_id)
+    references estudiante(estudiante_id),
+    constraint oyente_pk primary key(estudiante_id),
+    constraint oyente_suma_recursamiento_extraordinario_chk 
+    check(num_recursamientos+num_extraordinarios<=10)
 );
 
-prompt creacion de tabla cuenta_inversion 
+prompt Ya creo oyente
 
-create table cuenta_inversion(
-    cuenta_id number(35,0) not null constraint cuenta_inversion_pk primary key,
-    porcentaje_interes numeric(5,2) not null,
-    dia_retiro number(2,0) not null,
-    constraint cuenta_inversion_id_fk foreign key(cuenta_id) references
-    cuenta(cuenta_id),
-    constraint cuenta_inversion_dia_retiro_chk check (dia_retiro between 05 and 25)
+create table regular(
+    estudiante_id number(10,0),
+    semestre number(2,0) not null,
+    promedio_general number(4,2) not null,
+    constraint regular_estudiante_id_fk foreign key(estudiante_id)
+    references estudiante(estudiante_id),
+    constraint regular_pk primary key(estudiante_id)
 );
 
+prompt Ya creo regular
 
-prompt creacion de la vista v_cuenta_movimiento
+create table oyente_asignatura(
+    estudiante_id number(10,0),
+    asignatura_id number(10,0),
+    fecha_aprobacion date default sysdate not null,
+    calificacion number(2,0),
+    constraint oyente_asignatura_estudiante_id_fk foreign key(estudiante_id)
+    references oyente(estudiante_id),
+    constraint oyente_asignatura_asignatura_id_fk foreign key(asignatura_id)
+    references asignatura(asignatura_id),
+    constraint oyente_asignatura_pk primary key (estudiante_id,asignatura_id),
+    constraint oyente_asignatura_calificacion_chk 
+    check(calificacion>=5 and calificacion<=10)
+);
 
-create or replace view v_cuenta_movimiento(
-num_cuenta,num_movimiento,importe,concepto,tipo_movimiento,fecha_baja
-) as select num_cuenta,num_movimiento,importe,concepto,
-    tipo_movimiento,fecha_baja
-from cuenta c,movimiento_cuenta m
-where c.cuenta_id=m.cuenta_id;   
+prompt Ya creo oyente_asignatura
 
-
-create sequence seq_cuenta
-    start with 1001
-    increment by 2
+create sequence seq_estudiante
+    start with 10
+    increment by 3
     nocycle
-    cache 9;
+    cache 5;
+
+prompt Ya creo secuencia
 
 prompt Primer valor de la secuencia
-select seq_cuenta.nextval from dual;
+select seq_estudiante.nextval from dual;
 
 prompt Valor de la secuencia, no incremento
-select seq_cuenta.currval from dual;
+select seq_estudiante.currval from dual;
+
+create index num_cuenta_ix
+on estudiante(substr(num_cuenta,3,8));
+
+prompt Ya creo indice num_cuenta
+
+create index asignatura_requerida_id_ix 
+on asignatura(asignatura_requerida_id);
+
+prompt Ya creo indice asignatura_requerida_id
+
+create or replace view v_estudiante(
+    estudiante_id,nombre,semestre,num_cuenta 
+    ) as select estudiante.estudiante_id as estudiante_id,
+    estudiante.nombre as nombre, regular.semestre as semestre,
+    estudiante.num_cuenta as num_cuenta
+    from estudiante, regular
+    where estudiante.estudiante_id=regular.estudiante_id;
+
+prompt Ya creo v_estudiante
+
+prompt Listo!
+disconnect;
+/
 
 
---crear indice compuesto para rfc y titular
-
-create unique index rfc_titular_iuk
-on cuenta(rfc, titular);
-
-
-
--- mejoras de desempeño (indexado)
-
-create index titular_ix
-on cuenta(substr(titular,1,5));
-
-
-create index fecha_movimiento_ix
-on movimiento_cuenta(to_date(fecha_movimiento,'MM/YYYY'));
-
-
-create index cuenta_aval_id_iuk 
-on cuenta(cuenta_aval_id);
-
-
-
-
-
-
-
-
-
-    
-
-    
 

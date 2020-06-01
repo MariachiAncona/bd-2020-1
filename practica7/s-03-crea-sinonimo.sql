@@ -1,23 +1,18 @@
---@Autor:          Eliezer Jair Ochoa Santos, Ramirez Ancona Simon Eduardo
---@Fecha creación: 01/11/2019
---@Descripción:    Creacion de sinonimo
+--@Autor(es):       Ramírez Ancona Simón Eduardo
+--@Fecha creación:  27/04/2020
+--@Descripción:     Creación de sinonimos
 
-prompt Proporcionar el password del usuario sys
-connect sys as sysdba
+prompt Conectando como usuario admin
+connect sra_p0701_admin/simon
 
-grant create synonym to jos_p0703_invitado;
+prompt Asignando permisos de consulta a usuario invitado
+grant select on estudiante to sra_p0701_invitado;
 
-prompt Proporcionar el password del usuario jos_p0703_admin
-connect jos_p0703_admin 
+prompt Conectando como usuario invitado
+connect sra_p0701_invitado/simon
 
-grant select on cuenta to jos_p0703_invitado;
-
-
-prompt Proporcionar el password del usuario jos_p0703_invitado
-connect jos_p0703_invitado 
-
-
-create or replace synonym s_cuenta_cliente for jos_p0703_admin.cuenta; 
+prompt Creando sinónimo
+create or replace synonym s_alumno for sra_p0701_admin.estudiante; 
  
 disconnect;
 /

@@ -1,33 +1,43 @@
---@Autor(es):       Eliezer Jair Ochoa Santos, 
---@Fecha creación:  01/11/2019
---@Descripción:     Creación de usuarios y roles
+--@Autor(es):       Ramírez Ancona Simón Eduardo
+--@Fecha creación:  27/04/2020
+--@Descripción:     Creación de usuarios y roles 
 
 prompt Proporcionar el password del usuario sys:
 connect sys as sysdba 
 
-prompt creando usuario jos_p0703_admin:
-create user jos_p0703_admin identified by jair 
-quota 1024m on users
-password expire;
-grant create session to jos_p0703_admin;
+prompt creando rol p0701_admin_rol:
+create role p0701_admin_rol;
+prompt dando permisos al rol p0701_admin_rol:
+grant create session, create table, create view to p0701_admin_rol;
 
-prompt creando usuario jos_p0703_invitado:
-create user jos_p0703_invitado identified by invitado;
-grant create session to jos_p0703_invitado;
+prompt creando rol p0701_basic_rol:
+create role p0701_basic_rol;
+prompt dando permisos al rol p0701_basic_rol:
+grant create session, create table to p0701_basic_rol;
 
-prompt creando roles:
-create role jos_p0703_admin_rol;
-grant create table, create view, create synonym, create procedure,
-create trigger, create sequence to jos_p0703_admin_rol;
+prompt creando rol p0701_guest_rol:
+create role p0701_guest_rol;
+prompt dando permisos al rol p0701_guest_rol:
+grant create session, create synonym to p0701_guest_rol;
 
-prompt Asignar el rol jos_p0703_admin_rol a jos_p0703_admin:
-grant jos_p0703_admin_rol to jos_p0703_admin;
 
-prompt Listo!
+prompt creando usuario sra_p0701_admin:
+create user sra_p0701_admin identified by simon
+quota 1024m on users;
+prompt asignando el rol de p0701_admin_rol:
+grant p0701_admin_rol, create procedure, create sequence to sra_p0701_admin;
+
+
+prompt creando usuario sra_p0701_oper:
+create user sra_p0701_oper identified by simon
+quota 500m on users;
+prompt asignando el rol de p0701_basic_rol:
+grant p0701_basic_rol,create procedure, create sequence to sra_p0701_oper;
+
+prompt creando usuario sra_p0701_invitado:
+create user sra_p0701_invitado identified by simon;
+prompt asignando el rol de p0701_guest_rol:
+grant p0701_guest_rol, create procedure, create sequence to sra_p0701_invitado;
+
+prompt LISTO!
 disconnect;
-
-
-
-
-
-
