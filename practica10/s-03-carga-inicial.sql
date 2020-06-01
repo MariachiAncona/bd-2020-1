@@ -2,6 +2,7 @@
 --@Fecha creación:  dd/mm/yyyy
 --@Descripción:     Carga inicial.
  
+connect ocra_p1001_subastas/ocra
 
 --STATUS ARTICULO
 INSERT INTO STATUS_ARTICULO(STATUS_ARTICULO_ID,CLAVE,DESCRIPCION) VALUES(1,'REGISTRADO','SE ASIGNA CUANDO EL ARTCULO SE REGISTRA EN LA BASE DE DATOS');
@@ -1359,3 +1360,5 @@ INSERT INTO SUBASTA_VENTA(SUBASTA_VENTA_ID,PRECIO_VENTA,ARTICULO_ID,CLIENTE_ID,F
 
 ---Dejo esta linea comentada por si algo sale mal, puedan hacer rollback. Si toso se inserta OK, ejecuten commit.
 commit;
+
+disconnect

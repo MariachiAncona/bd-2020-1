@@ -6,7 +6,7 @@ prompt Conectando como sys para crear usuarios
 connect sys as sysdba
 
 prompt Creando usuario ocra_p1001_subastas
-create user ocra_p1001_subastas identified by ohra
+create user ocra_p1001_subastas identified by ocra
 quota unlimited on users;
 
 prompt Asignando privilegios a ocra_p1001_subastas;

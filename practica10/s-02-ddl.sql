@@ -2,21 +2,7 @@
 --@Fecha creación:  01/06/2020
 --@Descripción:     Generación de código utilizando ER Studio y archivo subastas.dm1
 
-
-
---
--- ER/Studio 8.0 SQL Code Generation
--- Company :      Windows uE
--- Project :      practica7-subastas.dm1
--- Author :       jorge
---
--- Date Created : Monday, June 01, 2020 10:28:01
--- Target DBMS : Oracle 11g
---
-
--- 
--- TABLE: ARTICULO 
---
+connect ocra_p1001_subastas/ocra
 
 CREATE TABLE ARTICULO(
     ARTICULO_ID           NUMBER(10, 0)     NOT NULL,
@@ -337,5 +323,7 @@ ALTER TABLE TARJETA_CLIENTE ADD CONSTRAINT RefCLIENTE14
     REFERENCES CLIENTE(CLIENTE_ID)
 ;
 
+commit;
 
-
+disconnect
+/
