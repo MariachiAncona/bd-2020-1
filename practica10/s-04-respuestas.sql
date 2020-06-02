@@ -17,7 +17,7 @@ sintaxis estándar.
 R: Se deben obtener 3 registros.
 
 */
-create table as
+create table consulta_1 as
     select a.nombre, a.clave_articulo, s.clave
     from status_articulo s
     join articulo a
@@ -36,7 +36,7 @@ Emplear natural join.
 R: Se deben obtener 2 registros.
 
 */
-create table as
+create table consulta_2 as
     select articulo_id, nombre, clave_articulo
     from status_articulo s
     join articulo a using(status_articulo_id)
@@ -62,9 +62,9 @@ columna fecha_inicio
 R: Se deben obtener el artículo con id 167
 */
 
-create table as 
+create table consulta_3 as 
     select articulo_id, a.nombre, precio_inicial, precio_venta, tipo_articulo,
-        s.nombre, 
+        s.nombre as NOMBRE_SUBASTA, 
         to_char(fecha_inicio,'yyyy/mm/dd hh:mi:ss AM') as FECHA_INICIO
     from subasta s
     join articulo a using(subasta_id)
@@ -89,7 +89,7 @@ c. Si una tarjeta tiene mismo año y mes de expiración los valores 11/11, la
 tarjeta aún se considera como vigente.
 R: Se deben obtener 16 registros.
 */
-create table as
+create table consulta_4 as
     select c.cliente_id, c.nombre, c.apellido_paterno, c.apellido_materno,
         t.numero_tarjeta, t.tipo_tarjeta, t.anio_vigencia, t.mes_vigencia
     from cliente c, tarjeta_cliente t
@@ -98,7 +98,7 @@ create table as
             to_date('11/11','mm/yy')
 ;
 
-select * from tarjeta_cliente;
+--select * from tarjeta_cliente;
 
 /* 5 
 Generar un reporte que muestre: identificador del artículo, nombre, clave, tipo,

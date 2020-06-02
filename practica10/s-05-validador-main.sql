@@ -13,12 +13,12 @@ define p_archivo_validador ='s-05p-validador-consultas.plb'
 --
 -- Nombre del usuario empleado en esta práctica
 --
-define p_usuario='jrc_p1001_subastas'
+define p_usuario='ocra_p1001_subastas'
 
 --
 -- Password del usuario empleado en esta práctica
 --
-define p_usuario_pass='jorge'
+define p_usuario_pass='ocra'
 
 --
 -- Password del usuario sys
