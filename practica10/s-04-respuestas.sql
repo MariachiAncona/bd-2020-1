@@ -130,7 +130,8 @@ R: Se deben obtener 5 clientes, uno de ellos cuenta con 2 tarjetas.
 
 */
 create table consulta_6 as
-    select c.nombre, c.apellido_paterno, c.apellido_materno, c.email, tc.tipo_tarjeta
+    select c.nombre, c.apellido_paterno, c.apellido_materno, c.email,
+        c.ocupacion, tc.tipo_tarjeta
     from cliente c, tarjeta_cliente tc
     where c.cliente_id = tc.cliente_id(+)
         and c.ocupacion = 'ABOGADO';
