@@ -109,12 +109,75 @@ SQL estándar.
 R: Se deben obtener 10 registros de los cuales 3 ya fueron vendidos.
 */
 
+create table consulta_5 as
+    select a.articulo_id, a.nombre, a.clave_articulo, a.tipo_articulo,
+    aa.anio_hallazgo, a.precio_inicial, s.precio_venta
+    from subasta_venta s
+    right outer join articulo a
+        on s.articulo_id =  a.articulo_id
+    join articulo_arqueologico aa
+        on a.articulo_id = aa.articulo_id
+    where  a.tipo_articulo = 'A'
+        and a.precio_inicial >= 800000;
+
+
+/* 6
+Generar un reporte que muestre nombre, apellidos, email, de todos los clientes
+cuya ocupación sea ABOGADO, y en caso de tener registrado una o
+más tarjetas de crédito, incluir el tipo de tarjeta. Emplear notación SQL 
+anterior compatible con Oracle.
+R: Se deben obtener 5 clientes, uno de ellos cuenta con 2 tarjetas.
+
+*/
+create table consulta_6 as
+    select c.nombre, c.apellido_paterno, c.apellido_materno, c.email, tc.tipo_tarjeta
+    from cliente c, tarjeta_cliente tc
+    where c.cliente_id = tc.cliente_id(+)
+        and c.ocupacion = 'ABOGADO';
 
 
 
+/* 7
 
+Suponga que se desea retirar del catálogo a todos los artículos que tengan un 
+precio inicial de más de 900,000, siempre y cuando el artículo todavía
+no inicie el proceso de subasta, es decir, el artículo no debe tener status 
+EN SUBASTA, ENTREGADO O VENDIDO. Empleando operadores del álgebra
+relacional (operadores SET: union, intersection, minus), determine el id, 
+nombre, clave, precio inicial y e identificador del status de los
+artículos que se deben retirar.
+R: Se deben obtener 6 artículos, verificar su precio.
+*/
 
+--Pendiente
 
+select articulo_id, nombre, clave_articulo, precio_inicial, status_articulo_id 
+from articulo
+minus
+select articulo_id, nombre, clave_articulo, precio_inicial, status_articulo_id
+from articulo
+where status_articulo_id =  (
+    select status_articulo_id
+    from articulo
+    where precio_inicial > 900000
+    intersect (
+        select status_articulo_id
+        from articulo 
+            minus(
+                select status_articulo_id
+                from status_articulo
+                where clave = 'EN SUBASTA'
+                union
+                select status_articulo_id
+                from status_articulo
+                where clave = 'ENTREGADO'
+                union
+                select status_articulo_id
+                from status_articulo
+                where clave = 'VENDIDO'
+        )
+    )
+);
 
 
 
