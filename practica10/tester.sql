@@ -1,4 +1,5 @@
 
+prompt Proporcionar contraseña para sys
 connect sys as sysdba 
 
 drop user ocra_p1001_subastas cascade;

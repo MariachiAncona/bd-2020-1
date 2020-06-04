@@ -150,39 +150,159 @@ artículos que se deben retirar.
 R: Se deben obtener 6 artículos, verificar su precio.
 */
 
---Pendiente
-
-select articulo_id, nombre, clave_articulo, precio_inicial, status_articulo_id 
-from articulo
-minus
-select articulo_id, nombre, clave_articulo, precio_inicial, status_articulo_id
-from articulo
-where status_articulo_id =  (
-    select status_articulo_id
+create table consulta_7 as
+    select articulo_id, nombre, clave_articulo, precio_inicial, status_articulo_id
     from articulo
     where precio_inicial > 900000
-    intersect (
+    intersect
+    select articulo_id, nombre, clave_articulo, precio_inicial, status_articulo_id
+    from articulo
+    minus
+    select articulo_id, nombre, clave_articulo, precio_inicial, status_articulo_id
+    from articulo
+    where status_articulo_id =
+        (
         select status_articulo_id
-        from articulo 
-            minus(
-                select status_articulo_id
-                from status_articulo
-                where clave = 'EN SUBASTA'
-                union
-                select status_articulo_id
-                from status_articulo
-                where clave = 'ENTREGADO'
-                union
-                select status_articulo_id
-                from status_articulo
-                where clave = 'VENDIDO'
+        from status_articulo
+        where clave = 'EN SUBASTA'
         )
-    )
-);
+    minus
+    select articulo_id, nombre, clave_articulo, precio_inicial, status_articulo_id
+    from articulo
+    where status_articulo_id =
+        (
+        select status_articulo_id
+        from status_articulo
+        where clave = 'ENTREGADO'
+        )
+    minus
+    select articulo_id, nombre, clave_articulo, precio_inicial, status_articulo_id
+    from articulo
+    where status_articulo_id =
+        (
+        select status_articulo_id
+        from status_articulo
+        where clave = 'VENDIDO'
+        )
+;
+
+
+/* 8
+
+SUBMEX ha decido incrementar en un 10% el precio inicial de todos aquellos 
+artículos arqueológicos que tengan más de 150 años de antigüedad y
+que aún no se han incluido en un proceso de subasta, es decir, solo se han 
+registrado en la BD. Determine 
+id, clave, nombre, id de status, año dehallazgo, y antigüedad en años
+de dichos artículos.
+R: Se deben obtener al menos 7 artículos.
+*/
+
+create table consulta_8 as
+    select a.articulo_id, a.clave_articulo, a.nombre, a.status_articulo_id,
+        aa.anio_hallazgo, to_char(sysdate,'yyyy')-aa.anio_hallazgo as "Antigüedad"
+    from articulo a
+    join articulo_arqueologico aa
+        on a.articulo_id = aa.articulo_id
+    where a.status_articulo_id = (
+            select status_articulo_id
+            from status_articulo
+            where clave = 'REGISTRADO'
+            )
+        and to_char(sysdate,'yyyy')-aa.anio_hallazgo > 150;
 
 
 
+/* 9
+Suponga que un cliente decide realizar una consulta en el catálogo de artículos.
+El cliente está interesado por todos aquellos artículos cuyo nombre
+o descripción hagan referencia o hablen de la palabra “Colonial” que no han sido
+aún vendidos, y que el articulo este en proceso de ser subastado.
+Generar la sentencia SQL que muestre el nombre y tipo de todos los artículos que
+cumplan con los criterios de búsqueda.
+R: Se debe obtener 1 registro.
+*/
+
+create table consulta_9 as
+    select nombre, tipo_articulo
+    from articulo
+    where (instr(nombre,'Colonial') > 0
+        or instr(descripcion,'Colonial') > 0)
+        and status_articulo_id <> (
+            select status_articulo_id
+            from status_articulo
+            where clave='REGISTRADO'
+        );
+
+/* 10
+Suponga que se desea generar un reporte a detalle de todos los artículos que 
+fueron comprados y pagados con la tarjeta de crédito
+5681375824866375. Los datos que el reporte debe mostrar son los siguientes:
+a. Fecha de la factura en formato dd/mm/yyyy, emplear 'fecha_factura' como 
+nombre de columna.
+b. Numero de la tarjeta
+c. Nombre y apellidos del cliente
+d. Precio de venta de cada articulo
+e. Precio de compra de cada articulo
+f. Diferencia entre el precio de compra y el de venta
+g. Nombre y clave del artículo
+h. Tipo de artículo
+i.Nombre completo del famoso al que perteneció el articulo (en caso de ser 
+articulo perteneciente a un famoso)
+j.Año de hallazgo, en caso de que el artículo sea arqueológico.
+k. Clave del país, en caso de que el articulo haya sido donado por dicho país.
+Emplear Notación estándar
+R: Se deben obtener 4 registros.
+*/
+
+create table consulta_10 as
+    select to_char(fc.fecha_factura,'dd/mm/yyyy') as "fecha_factura", 
+        tc.numero_tarjeta, c.nombre as NOMBRE_CLIENTE,c.apellido_paterno, 
+        c.apellido_materno, sv.precio_venta, a.precio_inicial, 
+        sv.precio_venta-a.precio_inicial as DIFERENCIA, a.nombre as NOBRE_ARTICULO,
+        a.clave_articulo,   a.tipo_articulo, af.nombre_completo, aa.anio_hallazgo, 
+        p.clave
+    from factura_cliente fc
+    join tarjeta_cliente tc
+        on fc.tarjeta_cliente_id = tc.tarjeta_cliente_id
+    join cliente c
+        on tc.cliente_id = c.cliente_id
+    right join subasta_venta sv
+        on fc.factura_cliente_id = sv.factura_cliente_id
+    right join articulo a
+        on a.articulo_id  = sv.articulo_id
+    left join articulo_famoso af
+        on af.articulo_id = a.articulo_id
+    left join articulo_arqueologico aa
+        on aa.articulo_id = a.articulo_id
+    left join articulo_donado ad
+        on ad.articulo_id = a.articulo_id
+    left join pais p
+        on p.pais_id = ad.pais_id
+    where tc.numero_tarjeta = 5681375824866375;
 
 
-
-
+/*
+11. Reescribir la consulta anterior pero ahora empleando notación anterior 
+compatible con Oracle.
+R: Se deben obtener 4 registros.
+*/
+create table consulta_11 as
+    select to_char(fc.fecha_factura,'dd/mm/yyyy') as "fecha_factura", 
+        tc.numero_tarjeta, c.nombre as NOMBRE_CLIENTE,c.apellido_paterno, 
+        c.apellido_materno, sv.precio_venta, a.precio_inicial, 
+        sv.precio_venta-a.precio_inicial as DIFERENCIA, a.nombre as NOBRE_ARTICULO,
+        a.clave_articulo,   a.tipo_articulo, af.nombre_completo, aa.anio_hallazgo, 
+        p.clave
+    from factura_cliente fc, tarjeta_cliente tc, cliente c, subasta_venta sv,
+        articulo a, articulo_famoso af, articulo_arqueologico aa, articulo_donado ad,
+        pais p
+    where fc.tarjeta_cliente_id = tc.tarjeta_cliente_id
+        and tc.cliente_id = c.cliente_id
+        and fc.factura_cliente_id(+)  = sv.factura_cliente_id
+        and a.articulo_id  = sv.articulo_id(+)
+        and af.articulo_id(+) = a.articulo_id
+        and aa.articulo_id(+) = a.articulo_id
+        and ad.articulo_id(+) = a.articulo_id
+        and p.pais_id(+) = ad.pais_id
+        and tc.numero_tarjeta = 5681375824866375;
