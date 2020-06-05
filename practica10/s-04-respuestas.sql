@@ -185,7 +185,7 @@ R: Se deben obtener 6 artículos, verificar su precio.
         where clave = 'VENDIDO'
         )
 ; */
-create table consulta_7 as
+/* create table consulta_7 as
     select articulo_id, nombre, clave_articulo, precio_inicial, status_articulo_id
     from (
         select *
@@ -210,8 +210,31 @@ create table consulta_7 as
             on a.status_articulo_id = s.status_articulo_id
             where s.clave = 'VENDIDO'
         )
-    );
+    ); */
 
+create table consulta_7 as
+    select articulo_id, nombre, clave_articulo, precio_inicial, status_articulo_id
+    from articulo
+    where precio_inicial > 900000
+        minus(
+            select articulo_id, nombre, clave_articulo, precio_inicial, a.status_articulo_id
+            from articulo a
+            join status_articulo s
+            on a.status_articulo_id = s.status_articulo_id
+            where s.clave = 'ENTREGADO'
+            union
+            select articulo_id, nombre, clave_articulo, precio_inicial, a.status_articulo_id
+            from articulo a
+            join status_articulo s
+            on a.status_articulo_id = s.status_articulo_id
+            where s.clave = 'EN SUBASTA'
+            union
+            select articulo_id, nombre, clave_articulo, precio_inicial, a.status_articulo_id
+            from articulo a
+            join status_articulo s
+            on a.status_articulo_id = s.status_articulo_id
+            where s.clave = 'VENDIDO'
+        );
 /* 8
 
 SUBMEX ha decido incrementar en un 10% el precio inicial de todos aquellos 
