@@ -246,7 +246,7 @@ de dichos artículos.
 R: Se deben obtener al menos 7 artículos.
 */
 
-create table consulta_8 as
+/* create table consulta_8 as
     select a.articulo_id, a.clave_articulo, a.nombre, a.status_articulo_id,
         aa.anio_hallazgo, to_char(sysdate,'yyyy')-aa.anio_hallazgo as "Antigüedad"
     from articulo a
@@ -258,6 +258,20 @@ create table consulta_8 as
             where clave = 'REGISTRADO'
             )
         and to_char(sysdate,'yyyy')-aa.anio_hallazgo > 150;
+ */
+
+create table consulta_8 as
+    select a.articulo_id, a.clave_articulo, a.nombre, a.status_articulo_id,
+        aa.anio_hallazgo, to_char(sysdate,'yyyy')-aa.anio_hallazgo as "Antigüedad"
+    from articulo a
+    join articulo_arqueologico aa
+        on a.articulo_id = aa.articulo_id
+    join status_articulo s
+        on s.status_articulo_id = a.status_articulo_id
+    where s.clave = 'REGISTRADO'
+        and to_char(sysdate,'yyyy')-aa.anio_hallazgo > 150;
+
+
 
 
 
@@ -271,7 +285,7 @@ cumplan con los criterios de búsqueda.
 R: Se debe obtener 1 registro.
 */
 
-create table consulta_9 as
+/* create table consulta_9 as
     select nombre, tipo_articulo
     from articulo
     where (instr(nombre,'Colonial') > 0
@@ -280,7 +294,16 @@ create table consulta_9 as
             select status_articulo_id
             from status_articulo
             where clave='REGISTRADO'
-        );
+        ); */
+
+create table consulta_9 as
+select a.nombre, a.tipo_articulo
+from articulo a
+join status_articulo s
+    on a.status_articulo_id = s.status_articulo_id
+where (instr(a.nombre,'Colonial') > 0
+    or instr(a.descripcion,'Colonial') > 0)
+    and s.clave <> 'REGISTRADO';
 
 /* 10
 Suponga que se desea generar un reporte a detalle de todos los artículos que 
