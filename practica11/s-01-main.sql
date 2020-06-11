@@ -1,6 +1,6 @@
 --@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo 
---@Fecha creación:  01/06/2020
---@Descripción:     Creación de usuario
+--@Fecha creación:  10/06/2020
+--@Descripción:     Creación de usuario, asignación de permisos y creación de sinónimos
 
 prompt Conectando como sys para crear usuarios
 connect sys as sysdba
@@ -49,5 +49,7 @@ create or replace synonym subasta_venta for ocra_p1001_subastas.subasta_venta;
 create or replace synonym tarjeta_cliente for ocra_p1001_subastas.tarjeta_cliente;
 
 prompt Se ha otorgado todo los permisos de forma correcta
+
+disconnect
 
 
