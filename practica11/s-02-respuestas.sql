@@ -7,18 +7,17 @@ R: Se han vendido 309 artículos
 */
 
 create table consulta_1 as
-    select q1.total_articulos, sum(sv.precio_venta) as ingresos
-    from
-        (select count(*) as total_articulos
-        from subasta s
-        join articulo a
-        on s.subasta_id=a.subasta_id
-        join status_articulo sa
-        on a.status_articulo_id= sa.status_articulo_id
-        where s.fecha_inicio between to_date('01/01/2010','dd/mm/yyyy') 
-            and to_date('31/12/2010','dd/mm/yyyy'))q1,
-        subasta_venta sv
-    group by q1.total_articulos;
+    select count(*) as total_articulos, 
+    sum(sv.precio_venta) as total
+    from subasta s
+    join articulo a
+    on s.subasta_id=a.subasta_id
+    left join subasta_venta sv
+    on sv.articulo_id = a.articulo_id
+    where s.fecha_inicio between 
+    to_date('01/01/2010','dd/mm/yyyy') and 
+    to_date('31/12/2010','dd/mm/yyyy');
+  
 
 /*
 2. Mostrar el total de artículos que no fueron vendidos en las subastas del 2010
@@ -34,8 +33,7 @@ create table consulta_2 as
         on a.status_articulo_id= sa.status_articulo_id
     where s.fecha_inicio between to_date('01/01/2010','dd/mm/yyyy') 
         and to_date('31/12/2010','dd/mm/yyyy')
-        and sa.clave <> 'VENDIDO' 
-        and sa.clave <> 'ENTREGADO';
+        and sa.clave not in ('VENDIDO', 'ENTREGADO'); 
 
 
 /*
@@ -71,17 +69,19 @@ subasta_venta.
 R: Se obtiene un solo registro.
 */
 
-select c.cliente_id, c.email, tc.numero_tarjeta----------------Pendiente
-from (select cliente_id from subasta_venta) q1,
-    tarjeta_cliente tc
-join cliente c
+
+create table consulta_4 as
+    select c.cliente_id, c.email, tc.numero_tarjeta
+    from  tarjeta_cliente tc
+    join cliente c
     on tc.cliente_id = c.cliente_id
-join subasta_venta sv
-    on c.cliente_id = sv.cliente_id
-where sv.factura_cliente_id is NULL
-    and c.fecha_nacimiento between to_date('01/01/1970','dd/mm/yyyy') 
+    where  c.fecha_nacimiento between 
+        to_date('01/01/1970','dd/mm/yyyy') 
     and to_date('31/12/1975','dd/mm/yyyy')
-    and c.cliente_id <> (q1.cliente_id);-----------------------Pendiente
+    and c.cliente_id not in (
+        select cliente_id
+        from subasta_venta
+        );
     
 /*
 5. Se desea generar un reporte estadístico que contenga la cantidad de artículos
@@ -92,17 +92,11 @@ R: Se deben obtener 6 registros.
 */
 
 create table consulta_5 as
-    select sum(q2.numero_articulos), q2.tipo_articulo, sa.clave
-    from (select count(*) as numero_articulos,
-                    tipo_articulo, 
-                    status_articulo_id
-            from articulo
-            group by tipo_articulo, status_articulo_id) q2,
-        status_articulo sa
-    where sa.clave = 'ENTREGADO'
-        or sa.clave = 'VENDIDO'
-    group by q2.tipo_articulo, sa.clave;
-
+    select count(*) as num_articulos, a.tipo_articulo, s.clave
+    from articulo a, status_articulo s
+    where s.status_articulo_id = a.status_articulo_id
+    and s.clave in ('VENDIDO','ENTREGADO')
+    group by a.tipo_articulo,s.clave;
 
 
 /*
@@ -178,6 +172,50 @@ create table consulta_7 as
     group by  c.cliente_id, c.nombre, c.apellido_paterno, c.apellido_materno
     having sum(sv.precio_venta) > 3000000;
 
+
+
+/*
+8. Para cada una de las subastas que se realizaron durante los meses enero, 
+marzo y junio del 2010, mostrar id, nombre, fecha inicio de la subasta, así
+como el nombre y clave del artículo más caro (precio venta) que se haya vendido 
+o entregado.
+R: Se deben obtener 11 registros.
+*/
+  
+create table consulta_8 as
+    select s.subasta_id, s.nombre as nombre_subasta, s.fecha_inicio, a.nombre, a.clave_articulo,
+    q1.mas_caro
+    from (
+    select s.subasta_id, s.nombre, s.fecha_inicio,
+        max(sv.precio_venta) as mas_caro
+    from subasta s, articulo a, subasta_venta sv
+    where s.subasta_id = a.subasta_id
+        and sv.articulo_id = a.articulo_id(+)
+        and (s.fecha_inicio between
+        to_date('01/01/2010','dd/mm/yyyy') and 
+        to_date('31/01/2010','dd/mm/yyyy')
+        or s.fecha_inicio between
+        to_date('01/03/2010','dd/mm/yyyy') and 
+        to_date('31/03/2010','dd/mm/yyyy')
+        or s.fecha_inicio between
+        to_date('01/06/2010','dd/mm/yyyy') and 
+        to_date('30/06/2010','dd/mm/yyyy'))
+    group by s.subasta_id, s.nombre, s.fecha_inicio
+    ) q1, articulo a, subasta_venta sv, subasta s
+    where a.subasta_id = s.subasta_id
+    and sv.articulo_id = a.articulo_id
+    and (s.fecha_inicio between
+        to_date('01/01/2010','dd/mm/yyyy') and 
+        to_date('31/01/2010','dd/mm/yyyy')
+        or s.fecha_inicio between
+        to_date('01/03/2010','dd/mm/yyyy') and 
+        to_date('31/03/2010','dd/mm/yyyy')
+        or s.fecha_inicio between
+        to_date('01/06/2010','dd/mm/yyyy') and 
+        to_date('30/06/2010','dd/mm/yyyy'))
+    and sv.precio_venta = q1.mas_caro;
+  
+
 /*
 9. Calcular el monto total de la última factura del cliente GALILEA GOMEZ GONZALEZ.
 R: Se debe obtener $ 1765264.89
@@ -241,21 +279,28 @@ a un cliente.
 R: Se debe obtener solo un artículo con id = 386, 
 promedio general = 412386.15208333335
 */
-
-select s.subsata_id, s.fecha_inicio, a.articulo_id, 
-  a.nombre as "NOMBRE DEL ARTICULO", a.precio_inicial as "PRECIO INICIAL",
-  (
-    select avg(a.precio_inicial)
+create table consulta_11 as 
+    select s.subasta_id, s.fecha_inicio, a.articulo_id,
+    a.nombre as "NOMBRE DEL ARTICULO", a.precio_inicial as "PRECIO INICIAL",
+    (
+        select avg(a.precio_inicial)
+        from subasta_venta sv, articulo a, subasta s
+        where sv.articulo_id = a.articulo_id
+        and a.subasta_id = s.subasta_id
+        and s.fecha_inicio between
+            to_date('01/01/2010','dd/mm/yyyy') and 
+            to_date('31/12/2010','dd/mm/yyyy')
+        and instr(a.nombre,'Motocicleta') = 1
+    ) as PROMEDIO
     from subasta_venta sv, articulo a, subasta s, status_articulo sa
-    where sv.articulo_id = a.articulo_id
-      and a.subasta_id = s.subasta_id
-      and sa.status_articulo_id = a.status_articulo_id
-      and sa.clave = 'VENDIDO' or sa.clave = 'ENTREGADO'
-      and s.fecha_inicio between
-        to_date('01/01/2010','dd/mm/yyyy') 
-        and to_date('31/12/2010','dd/mm/yyyy')
-
-select nombre from articulo order by 1;
+        where sv.articulo_id = a.articulo_id
+        and a.subasta_id = s.subasta_id
+        and sa.status_articulo_id = a.status_articulo_id
+        and (sa.clave = 'VENDIDO' or sa.clave = 'ENTREGADO')
+        and s.fecha_inicio between
+            to_date('01/07/2010','dd/mm/yyyy') 
+            and to_date('31/07/2010','dd/mm/yyyy')
+        and instr(a.nombre,'Motocicleta') > 0;
 
 
 /*
@@ -265,17 +310,90 @@ más artículos con un precio de venta inicial mayor a $300,000
 R: Se deben obtener 2 países.
 */
 
-select p.* 
-from pais p, articulo_donado ad, articulo a, subasta_venta sv,
-  (
-  select p.pais_id, count(*) as num_donaciones
-  from articulo_donado ad, pais p
-  where ad.pais_id = p.pais_id
-  group by p.pais_id
-  having count(*) > 2;
-  ) q1
-where p.pais_id = ad.pais_id
-  and ad.articulo_id = a.articulo_id
-  and a.articulo_id = sv-articulo_id
-  and q1.pais_id = p.pais_id
+create table consulta_12 as 
+    select p.*
+    from (
+        select p.pais_id, count(*) as num_donaciones
+        from articulo_donado ad, pais p, articulo a
+        where ad.pais_id = p.pais_id
+        and a.articulo_id = ad.articulo_id
+        and a.precio_inicial > 300000
+        group by p.pais_id
+        having count(*) > 2) q1, pais p
+    where  p.pais_id = q1.pais_id;
 
+
+/*
+13. Generar una consulta que determine el id, nombre, fecha inicio e importe 
+total de ventas de las subastas que durante el año 2010 hayan logrado
+obtener $3,000,000 o más en ventas.
+R: Se deben obtener 5 subastas.
+*/
+
+create table consulta_13 as 
+    select s.subasta_id, s.nombre, s.fecha_inicio, 
+    sum(sv.precio_venta) as total_ventas
+    from subasta s
+    join articulo a
+    on a.subasta_id = s.subasta_id
+    join subasta_venta sv
+    on a.articulo_id = sv.articulo_id
+    where s.fecha_inicio between
+    to_date('01/01/2010','dd/mm/yyyy') 
+    and to_date('31/12/2010','dd/mm/yyyy')
+    group by s.subasta_id, s.nombre, s.fecha_inicio
+    having sum(sv.precio_venta) >= 3000000;
+
+
+/*
+14. Se ha detectado que en la base de datos existen compras realizadas por 
+algunos clientes sin factura con montos de más de $1,000,000, ya que la
+empresa tiene como política, que toda compra igual o superior a dicho monto, 
+debe generar factura. Determine una sentencia SQL que muestre
+nombre, apellidos, y el total del monto a cubrir, con la finalidad de 
+notificarle al cliente la inexistencia de su factura.
+R: Se deben obtener 6 registros.
+*/
+
+create table consulta_14 as
+    select c.nombre, c.apellido_paterno, c.apellido_materno, 
+    sum(sv.precio_venta) as total_monto
+    from cliente c
+    join subasta_venta sv
+    on c.cliente_id = sv.cliente_id
+    where sv.factura_cliente_id is null
+    group by c.nombre, c.apellido_paterno, c.apellido_materno
+    having sum(sv.precio_venta) >1000000;
+
+/*
+15. Seleccionar todos los datos de la subasta que ha vendido el mayor número de 
+artículos registrada en la base de datos.
+R: La subasta que más vendió se realizó en Cuernavaca y vendió 6 artículos.
+*/
+
+create table consulta_15 as
+    select s.*
+    from (
+    select s.subasta_id, count(*) as total_articulos
+                from subasta s
+                join articulo a
+                on s.subasta_id=a.subasta_id
+                join status_articulo sa
+                on a.status_articulo_id= sa.status_articulo_id
+                where sa.clave in ('VENDIDO', 'ENTREGADO')
+                group by s.subasta_id
+                having count(*) = (
+        select max(q1.total_articulos)
+        from   (
+                select s.subasta_id, count(*) as total_articulos
+                from subasta s
+                join articulo a
+                on s.subasta_id=a.subasta_id
+                join status_articulo sa
+                on a.status_articulo_id= sa.status_articulo_id
+                where sa.clave in ('VENDIDO', 'ENTREGADO')
+                group by s.subasta_id 
+                ) q1 , subasta s
+        where q1.subasta_id = s.subasta_id)
+        )q2, subasta s
+    where q2.subasta_id = s.subasta_id;

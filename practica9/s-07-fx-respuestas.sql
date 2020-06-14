@@ -87,8 +87,10 @@ create table consulta_8 as
     where wikipedia_link is not null;
 
 create table consulta_9 as
-    select to_char(LPAD(id, 6, '0')|| '-'
-            || substr(region_iso,4, 3)|| '-'
+    select to_char(LPAD(id, 6, '0')
+            || '-'
+            || substr(region_iso,4, 3)
+            || '-'
             || substr(nvl(upper(municipio), 'NNNN'),
                     (length( nvl(upper(municipio), 'NNNN') ) - 1)
                 , 2)
