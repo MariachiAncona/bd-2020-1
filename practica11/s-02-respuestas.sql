@@ -284,13 +284,12 @@ create table consulta_11 as
     a.nombre as "NOMBRE DEL ARTICULO", a.precio_inicial as "PRECIO INICIAL",
     (
         select avg(a.precio_inicial)
-        from subasta_venta sv, articulo a, subasta s
-        where sv.articulo_id = a.articulo_id
-        and a.subasta_id = s.subasta_id
+        from articulo a, subasta s
+        where a.subasta_id = s.subasta_id
         and s.fecha_inicio between
             to_date('01/01/2010','dd/mm/yyyy') and 
             to_date('31/12/2010','dd/mm/yyyy')
-        and instr(a.nombre,'Motocicleta') = 1
+        and instr(upper(a.nombre),'MOTOCICLETA') > 0
     ) as PROMEDIO
     from subasta_venta sv, articulo a, subasta s, status_articulo sa
         where sv.articulo_id = a.articulo_id
@@ -300,8 +299,7 @@ create table consulta_11 as
         and s.fecha_inicio between
             to_date('01/07/2010','dd/mm/yyyy') 
             and to_date('31/07/2010','dd/mm/yyyy')
-        and instr(a.nombre,'Motocicleta') > 0;
-
+        and instr(upper(a.nombre),'MOTOCICLETA') > 0;
 
 /*
 12. La empresa decide reconocer a ciertos países por su buena participación: 
