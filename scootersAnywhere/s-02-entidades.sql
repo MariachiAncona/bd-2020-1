@@ -4,7 +4,7 @@
 --@Descripción:     Creación de tablas
 
 prompt Conectando como usuario admin para crear tablas
---connect
+connect or_proy_admin/admin
 
 
 prompt Creando tabla status_scooter
@@ -33,7 +33,7 @@ create table marca(
 prompt Creando tabla telefono
 create table telefono(
     telefono_id number(1,0),
-    marca_id number(10,0) not number,
+    marca_id number(10,0) not null,
     telefono number(10,0) not null,
     constraint telefono_marca_id_fk foreign key(marca_id)
     references marca(marca_id),
@@ -58,7 +58,6 @@ create table scooter(
     references scooter(scooter_id),
     constraint scooter_pk primary key (scooter_id),
     constraint scooter_no_serie_uk unique (no_serie),
-    constraint scooter_matricula_uk unique (matricula),
     constraint scooter_codigo_consola unique (codigo_consola)
 );
 
@@ -78,7 +77,7 @@ create table zona_scooter(
 prompt Creando tabla historico_status_scooter
 create table historico_status_scooter(
     historico_status_scooter_id number(10,0),
-    fecha_status date not null default sysdate,
+    fecha_status date default sysdate not null,
     scooter_id number not null,
     status_scooter_id number not null,
     constraint historico_status_scooter_pk primary key (historico_status_scooter_id),
@@ -93,12 +92,12 @@ create table historico_status_scooter(
 prompt Creando tabla ubicacion_scooter
 create table ubicacion_scooter(
     ubicacion_scooter_id number(10,0),
-    fecha_hora date not null default sysdate,
+    fecha_hora date default sysdate not null,
     latitud number(8,5) not null,
     longitud number(8,5) not null,
     scooter_id number not null,
     constraint ubicacion_scooter_pk primary key(ubicacion_scooter_id),
-    constraint ubicacion_scooter_scooter_id_fk foreign key
+    constraint ubicacion_scooter_scooter_id_fk foreign key (scooter_id)
     references scooter(scooter_id)
 );
 
@@ -110,10 +109,10 @@ create table usuario(
     apellido_materno varchar(20),
     email varchar(50) not null,
     contraseña varchar(50) not null,
-    puntos_recompensa number(5,0) not null default 0,
+    puntos_recompensa number(5,0) default 0 not null,
     constraint usuario_pk primary key(usuario_id),
     constraint usuario_email_chk 
-    check email like '%@%.com'
+    check (email like '%@%.com')
 );
 
 prompt Creando tabla tarjeta
@@ -128,24 +127,24 @@ create table tarjeta(
     references usuario(usuario_id),
     constraint tarjeta_no_tarjeta_uk unique(no_tarjeta),
     constraint tarjeta_anio_exp_mes_exp_chk
-    check ((anio_exp = 20 and mes > 06) or (anio > 20))
+    check ((anio_exp = 20 and mes_exp > 06) or (anio_exp > 20))
 );
 
 prompt Creando tabla tarjeta_prepago
-create table tarajeta_prepago(
-    tarajeta_prepago_id number(10,0),
+create table tarjeta_prepago(
+    tarjeta_prepago_id number(10,0),
     codigo_barras number(21,0) not null,
-    fecha_registro date not null default sysdate,
-    fecha_expiracion date not null,
-    credito_disponible number(8,2) not null
+    fecha_registro date default sysdate not null,
+    anio_exp number(2,0) not null,
+    mes_exp number(2,0) not null,
+    credito_disponible number(8,2) not null,
     usuario_id number not null,
-    constraint tarajeta_prepago_pk primary key(tarajeta_prepago_id),
-    constraint tarajeta_prepago_usuario_id foreign key (usuario_id)
+    constraint tarjeta_prepago_pk primary key(tarjeta_prepago_id),
+    constraint tarjeta_prepago_usuario_id foreign key (usuario_id)
     references usuario(usuario_id),
-    constraint tarajeta_prepago_codigo_barras_uk unique(codigo_barras),
+    constraint tarjeta_prepago_codigo_barras_uk unique(codigo_barras),
     constraint tarjeta_prepago_fecha_expiracion_chk
-    check ((anio_exp = 20 and mes > 06) or (anio > 20))
-
+    check ((anio_exp = 20 and mes_exp > 06) or (anio_exp > 20))
 );
 
 prompt Creando tabla falla_scooter
@@ -177,7 +176,7 @@ create table imagen_falla(
 prompt Creando tabla servicio
 create table servicio(
     servicio_id number(10,0),
-    fecha_inicio date not null default sysdate,
+    fecha_inicio date default sysdate not null,
     tipo char(1) not null,
     usuario_id number not null,
     constraint servicio_pk primary key(servicio_id),
@@ -193,14 +192,15 @@ create table servicio_carga(
     clabe number(18,0) not null,
     constraint servicio_carga_servicio_id_fk foreign key(servicio_id)
     references servicio(servicio_id),
-    constraint servicio_pk primary key (servicio_id)
+    constraint servicio_carga_clabe_uk unique (clabe),
+    constraint servicio_carga_pk primary key (servicio_id)
 );
 
 prompt Creando tabla servicio_renta
 create table servicio_renta(
     servicio_id number,
     dias number(2,0) not null,
-    direccion varchar(200)
+    direccion varchar(200),
     scooter_id number not null,
     constraint servicio_renta_scooter_id_fk foreign key(scooter_id)
     references scooter(scooter_id),
@@ -230,9 +230,12 @@ create table scooter_servicio_carga(
     scooter_id number not null,
     servicio_id number not null,
     carga_final number(3,0),
-    constraint servicio_carga_scooter_id_fk foreign key(scooter_id)
+    constraint scooter_servicio_carga_scooter_id_fk foreign key(scooter_id)
     references scooter(scooter_id),
-    constraint servicio_carga_servicio_id_fk foreign key(servicio_id)
+    constraint scooter_servicio_carga_servicio_id_fk foreign key(servicio_id)
     references servicio(servicio_id),
-    constraint servicio_carga_pk primary key (servicio_carga_id)
+    constraint scooter_servicio_carga_pk primary key (scooter_servicio_carga_id)
 );
+
+disconnect
+/
