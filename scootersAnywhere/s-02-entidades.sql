@@ -32,12 +32,7 @@ create table marca(
 
 prompt Creando tabla telefono
 create table telefono(
-    telefono_id integer generated always as identity
-    start with 1
-    increment by 1
-    minvalue 1
-    maxvalue 3
-    cycle,
+    telefono_id number(1,0),
     marca_id number(10,0) not number,
     telefono number(10,0) not null,
     constraint telefono_marca_id_fk foreign key(marca_id)
@@ -171,12 +166,7 @@ create table falla_scooter(
 
 prompt Creando tabla imagen_falla
 create table imagen_falla(
-    no_imagen integer generated always as identity
-    start with 1
-    increment by 1
-    minvalue 1
-    maxvalue 5
-    cycle,
+    no_imagen number(1,0),
     falla_scooter_id number,
     imagen_falla blob not null,
     constraint imagen_falla_falla_scooter_id_fk foreign key(falla_scooter_id)
