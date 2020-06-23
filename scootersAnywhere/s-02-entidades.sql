@@ -9,7 +9,11 @@ connect or_proy_admin/admin
 
 prompt Creando tabla status_scooter
 create table status_scooter(
-    status_scooter_id number(10,0),
+    status_scooter_id integer generated always as identity
+    start with 1
+    increment by 1
+    minvalue 1
+    nocycle,   
     clave varchar(20) not null,
     descripcion varchar(200) not null,
     constraint status_scooter_pk primary key (status_scooter_id)
@@ -43,8 +47,8 @@ create table telefono(
 prompt Creando tabla scooter
 create table scooter(
     scooter_id number(10,0),
-    no_serie varchar(12) not null,
-    codigo_consola number(16,0) not null,
+    no_serie varchar(18) not null,
+    codigo_consola number(18,0) not null,
     matricula varchar(8) not null,
     capacidad_max_kg number(3,0) not null,
     marca_id number not null,
@@ -153,7 +157,7 @@ create table falla_scooter(
     latitud number(8,5),
     longitud number(8,5),
     fecha_hora date not null,
-    descripcion_falla varchar(2000) not null,
+    descripcion varchar(2000) not null,
     scooter_id number not null,
     usuario_id number not null,
     constraint falla_scooter_pk primary key (falla_scooter_id),

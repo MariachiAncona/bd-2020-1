@@ -9,18 +9,18 @@ connect or_proy_admin/admin
 
 
 
-create or replace public synonym zona for or_proy_admin.zona;
-create or replace public synonym falla_scooter for or_proy_admin.falla_scooter;
-create or replace public synonym scooter for or_proy_admin.scooter;
-create or replace public synonym servicio for or_proy_admin.servicio;
+create or replace public synonym z for zona;
+create or replace public synonym fs for falla_scooter;
+create or replace public synonym st for scooter;
+create or replace public synonym s for servicio;
 
 
 prompt Ortogando permisos de lectura al usuario or_proy_invitado 
 
-grant select on zona to or_proy_invitado;
-grant select on falla_scooter to or_proy_invitado;
-grant select on scooter to or_proy_invitado;
-grant select on servicio to or_proy_invitado;
+grant select on z to or_proy_invitado;
+grant select on fs to or_proy_invitado;
+grant select on st to or_proy_invitado;
+grant select on s to or_proy_invitado;
 
 connect or_proy_invitado/invi
 
@@ -33,19 +33,18 @@ create or replace synonym servicio for or_proy_admin.servicio;
 connect or_proy_admin/admin
 
 declare
-    cursor tablas is 
-        select table_name 
-        from user_tables 
-        order by table_name;
+  cursor tablas is 
+    select TABLE_NAME
+    from user_tables;
 
 begin
-    for r in tablas loop
-        execute immediate  'create or replace synonym or_'
-        || r.table_name 
-        || ' for '
-        || t.table_name;
+  for t in tablas loop
+    execute immediate  'create or replace synonym or_'
+    || t.TABLE_NAME 
+    || ' for '
+    || t.TABLE_NAME;
     end loop;
-end;
+  end;
 /
-show errors/
+show errors
 

@@ -18,8 +18,8 @@ create role rol_admin;
 
 grant create session to or_proy_admin;
 
-grant create table, create view, create synonym, create trigger, create sequence, 
-create procedure to rol_admin;
+grant create table, create view, create public synonym, create trigger, create sequence, 
+create synonym, create procedure to rol_admin;
 
 create or replace directory directorio 
   as '/home/simon/Desktop/BD/bd-2020-1/scootersAnywhere';

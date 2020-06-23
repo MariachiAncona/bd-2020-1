@@ -5,7 +5,7 @@
 prompt Conectando como usuario sys para eliminar usuarios y ejecutar main
 connect sys as sysdba
 drop user or_proy_admin cascade;
-drop user or_proy_invitado;
+drop user or_proy_invitado cascade;
 drop role rol_admin;
 drop role rol_invitado;
 disconnect
@@ -17,3 +17,6 @@ disconnect
 @s-05-secuencias.sql
 @s-06-indices.sql
 @s-07-sinonimos.sql
+@s-08-vistas.sql
+@s-09-carga-inicial.sql
+--
