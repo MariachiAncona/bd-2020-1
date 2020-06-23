@@ -116,7 +116,7 @@ create table usuario(
     puntos_recompensa number(5,0) default 0 not null,
     constraint usuario_pk primary key(usuario_id),
     constraint usuario_email_chk 
-    check (email like '%@%.com')
+    check (email like '%@%.%')
 );
 
 prompt Creando tabla tarjeta
@@ -171,7 +171,7 @@ prompt Creando tabla imagen_falla
 create table imagen_falla(
     no_imagen number(1,0),
     falla_scooter_id number,
-    imagen_falla blob not null,
+    imagen_falla blob null,
     constraint imagen_falla_falla_scooter_id_fk foreign key(falla_scooter_id)
     references falla_scooter(falla_scooter_id),
     constraint imagen_falla_pk primary key (falla_scooter_id, no_imagen)

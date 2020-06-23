@@ -163,76 +163,243 @@ INSERT INTO zona_scooter (zona_scooter_id,zona_id,scooter_id) VALUES (seq_zona_s
 INSERT INTO zona_scooter (zona_scooter_id,zona_id,scooter_id) VALUES (seq_zona_scooter.nextval,14,15);
 
 --Insertando datos de tabla historico_status_scooter
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,5,'11/06/2021');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,7,2,'17/07/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,5,18,'24/02/2021');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,4,14,'01/06/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,5,12,'17/07/2019');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,6,17,'05/05/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,2,12,'20/02/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,5,'23/03/2021');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,13,'16/09/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,1,13,'24/05/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,3,'07/09/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,5,6,'07/02/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,4,16,'28/12/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,2,11,'20/09/2019');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,4,5,'08/06/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,5,8,'13/10/2019');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,7,5,'24/03/2021');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,2,14,'22/09/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,15,'04/04/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,7,7,'28/10/2019');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,4,2,'18/02/2021');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,5,18,'11/09/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,7,4,'21/05/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,13,'14/04/2020');
-INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,11,'09/03/2021');
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,5,sysdate-43);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,7,2,sysdate-12);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,5,18,sysdate-165);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,4,14,sysdate-132);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,5,12,sysdate-113);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,6,17,sysdate-76);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,2,12,sysdate-34);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,5,sysdate-354);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,13,sysdate-112);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,1,13,sysdate-111);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,3,sysdate-143);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,5,6,sysdate-166);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,4,16,sysdate-22);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,2,11,sysdate-189);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,4,5,sysdate-14);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,5,8,sysdate-17);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,7,5,sysdate-124);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,2,14,sysdate-106);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,15,sysdate-186);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,7,7,sysdate-19);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,4,2,sysdate-10);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,5,18,sysdate-156);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,7,4,sysdate-123);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,13,sysdate-17);
+INSERT INTO historico_status_scooter (historico_status_scooter_id,status_scooter_id,scooter_id,fecha_status) VALUES (seq_historico_status_scooter.nextval,3,11,sysdate-128);
 
 --Insertando datos de tabla ubicacion_scooter
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-73.10474',17,'2021-04-04 23:53:17','-145.86039');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'63.51519',7,'2019-12-16 05:21:31','171.91467');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'61.53409',14,'2020-06-28 18:06:20','33.74867');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-31.77795',11,'2021-05-21 19:15:39','-8.02382');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-73.13727',3,'2020-01-06 21:56:43','49.97391');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'36.7234',2,'2021-03-07 10:21:06','57.62496');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'58.26025',12,'2020-12-05 05:40:41','-25.72174');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'82.52226',19,'2021-04-21 12:26:29','8.93721');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'72.4106',3,'2020-01-14 03:07:15','-91.51079');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'37.20173',8,'2020-03-07 09:16:23','-1.87283');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval'-54.54966',19,'2019-11-16 20:59:40','49.30433');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'82.82493',7,'2020-01-31 03:59:23','-5.31103');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'47.71022',12,'2020-06-17 18:33:07','-94.05504');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-57.0839',19,'2020-10-27 08:29:34','-43.31241');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'4.85652',17,'2021-04-30 03:29:52','-157.56377');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-63.53277',13,'2020-04-01 06:47:21','-168.7348');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'20.21348',5,'2019-09-22 01:32:42','41.06684');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-7.0695',14,'2021-01-29 23:50:57','-18.77558');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-76.13163',1,'2021-02-22 13:54:45','139.759');
-INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-33.56163',16,'2021-06-06 19:53:24','-178.42155');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-73.10474',17,sysdate-3,'-145.86039');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'63.51519',7,sysdate-43,'171.91467');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'61.53409',14,sysdate-143,'33.74867');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-31.77795',11,sysdate-432,'-8.02382');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-73.13727',3,sysdate-33,'49.97391');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'36.7234',2,sysdate-53,'57.62496');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'58.26025',12,sysdate-12,'-25.72174');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'82.52226',19,sysdate-13,'8.93721');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'72.4106',3,sysdate-38,'-91.51079');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'37.20173',8,sysdate-45,'-1.87283');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-54.54966',19,sysdate-44,'49.30433');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'82.82493',7,sysdate-46,'-5.31103');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'47.71022',12,sysdate-11,'-94.05504');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-57.0839',19,sysdate-86,'-43.31241');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'4.85652',17,sysdate-67,'-157.56377');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-63.53277',13,sysdate-7,'-168.7348');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'20.21348',5,sysdate-8,'41.06684');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-7.0695',14,sysdate-40,'-18.77558');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-76.13163',1,sysdate-23,'139.759');
+INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hora,longitud) VALUES (seq_ubicacion_scooter.nextval,'-33.56163',16,sysdate-2,'-178.42155');
+
+--Insertando datos de tabla usuario
+
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Leigh','Howe','Hebert','OUP78FTT1PK',8682,'odio.Phasellus@magnis.org');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Amaya','Charles','Dawson','WQJ24YHU5LE',9274,'ac.facilisis@ligula.ca');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Erica','Kent','Nixon','TDX75TDC9ZH',6292,'consequat.auctor.nunc@nunc.org');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Alden','Figueroa','Barton','CTE32LJE3LF',4743,'elit.elit@fames.com');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Libby','Delacruz','Weaver','IDR32FDS7EN',419,'lectus@semmagna.net');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Igor','Acevedo','Melendez','JEW94TSW9PK',1235,'ante.lectus@senectusetnetus.co.uk');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Yoshio','Cameron','Collins','FIE79KVJ8JM',1920,'non.luctus.sit@orcilobortis.ca');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Kieran','Baldwin','Mills','ODP29SJK2LP',5378,'eu.neque@commodoauctor.org');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Uma','Hoover','Rojas','FNE52VAU0FT',599,'a@amet.org');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Ferdinand','Bates','Odom','ZIH78AXQ5EJ',4836,'elit@leoelementumsem.edu');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Emmanuel','Fernandez','Nielsen','DYW48JIE9MR',7086,'euismod.ac.fermentum@metus.co.uk');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Germane','Hansen','Marshall','QJL33KKU0RI',3853,'ac@Nullatinciduntneque.ca');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Carson','Mcfadden','Pickett','WER25GGK0TR',3217,'mi@dignissimpharetraNam.com');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Ingrid','Snow','Acosta','LWH55FLA8HE',5441,'at.sem@utnullaCras.ca');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Cassady','Farmer','Hoover','WAT88ROF4XK',9559,'ante.ipsum.primis@est.org');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Indigo','Guy','Sanford','QCO31KKA3GK',802,'in@semper.co.uk');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Summer','Holman','Paul','GYR11KPR1NV',5026,'mauris@euodioPhasellus.edu');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Forrest','Hampton','Lamb','UCD76HKM9UQ',3159,'eget@conubianostraper.net');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Mufutau','Sellers','Albert','BNL16OJL7BN',6393,'blandit.viverra@nunc.edu');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Lilah','Oneill','Christian','BMT45ISQ3AQ',7496,'elit.pharetra.ut@estNunclaoreet.com');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Cedric','Adkins','Hart','LYD89TZH7YI',1714,'egestas.Aliquam.fringilla@risusaultricies.edu');
+
+
+--Insertando datos de tabla tarjeta
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,9518315494060517,21,6,1);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,2848493117425177,22,6,2);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,8118119380540319,23,6,3);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,7317310902807448,24,6,4);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,9157762850324314,25,6,5);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,9253765729566416,21,6,6);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,6005865078833369,23,6,7);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,2982981337441338,22,6,8);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,8024513493809436,24,6,9);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,4480459673537148,25,6,10);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,3431835327711370,22,6,11);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,3460587428675757,21,6,12);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,9022591933608056,23,6,13);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,4623712239166101,24,6,14);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,6671397777067291,25,6,15);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,7870088654259841,23,6,16);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,3955892336865266,21,6,17);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,1250483882096078,23,6,18);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,1620402253336376,24,6,19);
+INSERT INTO tarjeta (tarjeta_id,no_tarjeta,anio_exp,mes_exp,usuario_id) VALUES (seq_tarjeta.nextval,1782432786292500,25,6,20);
+
+
+--Insertando datos de tabla tarjeta_prepago
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,613964910912233824,21,6,1260,1);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,1385002313664482048,21,6,5203,2);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,2327764522568693760,21,6,3004,3);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,2030454378714626304,21,6,5025,4);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id)  VALUES (seq_tarjeta.nextval,2429790380697681408,21,6,9048,5);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,3252352967569415168,21,6,5668,6);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,1699718085498195200,21,6,3774,7);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,520851704695210400,21,6,9927,8);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,3002164089821767680,21,6,3496,9);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,1347490053316948864,21,6,2591,10);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,2096630205482277376,21,6,5776,11);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,3489866483585636352,21,6,5957,12);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,1891871856730704384,21,6,8999,13);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,2589178718853137920,21,6,3383,14);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,3651100391495097344,21,6,1379,15);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,1975862070170633216,21,6,1480,16);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,3249412389055590912,21,6,5735,17);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,1646471329932622336,21,6,9300,18);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,1288088724230169472,21,6,1501,19);
+INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,credito_disponible,usuario_id) VALUES (seq_tarjeta.nextval,1245226190051991168,21,6,7693,20);
+
 
 --Insertando datos de tabla servicio
 
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',1);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',2);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',3);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',4);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',5);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',6);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',7);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',8);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',9);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',10);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',11);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',12);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',13);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',14);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',15);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',16);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',17);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',18);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',19);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',20);
+
+
+--Insertando datos de tabla servicio_viaje
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (1,sysdate+(1/3),'RLG58REY2WYP4',1);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (2,sysdate+(1/3),'OMT57ZIU6EKO9',2);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (3,sysdate+(1/3),'XUK14OOJ0DFG0',3);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (4,sysdate+(1/3),'DVM55JHH6LXM3',4);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (5,sysdate+(1/3),'NPY79VPH6KCC5',5);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (6,sysdate+(1/3),'BTJ91OMD5CDC7',6);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (7,sysdate+(1/3),'EQD25JRS0JSZ5',7);
+
+--Insertando datos de tabla servicio_renta
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (1,11,'5081 Nulla. Av.',8);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (2,5,'593-3668 Imperdiet ',9);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (3,14,'4267 Sed Carretera',10);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (4,12,'728 Tempor ',11);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (5,6,'246-1408 Erat C/',12);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (6,8,'3955 Fermentum C/',13);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (7,4,'958-4264 Taciti C/',14);
+
+--Insertando datos de tabla servicio_carga
+
+INSERT INTO servicio_carga (servicio_id,nombre_banco,clabe) VALUES (1,'Zachary',628798842844035847);
+INSERT INTO servicio_carga (servicio_id,nombre_banco,clabe) VALUES (2,'Jerome',192381474292940551);
+INSERT INTO servicio_carga (servicio_id,nombre_banco,clabe) VALUES (3,'Lars',457748835285504647);
+INSERT INTO servicio_carga (servicio_id,nombre_banco,clabe) VALUES (4,'Phelan',648606354163752647);
+INSERT INTO servicio_carga (servicio_id,nombre_banco,clabe) VALUES (5,'Troy',740922115329239111);
+INSERT INTO servicio_carga (servicio_id,nombre_banco,clabe) VALUES (6,'Bruno',219787373724910935);
+
+--Insertando datos de tabla servicio_scooter_carga
+
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,1,15,42);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,2,16,12);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,3,17,36);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,4,18,34);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,5,19,90);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,6,20,30);
+
+
+
+--Insertando datos de tabla falla_scooter
+
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,1,1,'-106.91987','36.90466',sysdate ,'lacus');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,2,2,'98.36597','78.95288',sysdate ,'amet');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,3,3,'-55.27878','4.85982',sysdate ,'tempus');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,4,4,'-42.06621','-2.42493',sysdate ,'Quisque');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,5,5,'0.12639','4.54074',sysdate ,'eu');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,6,6,'5.85843','81.31503',sysdate ,'sdfgafd');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,7,7,'140.71148','-46.61047',sysdate ,'neque');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,8,8,'3.60797','-12.36656',sysdate ,'faucibus');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,9,9,'-157.48563','-85.76073',sysdate ,'Nam');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,10,10,'135.1738','56.841',sysdate ,'Nullam');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,11,11,'-139.95949','-4.79632',sysdate ,'adipiscing');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,12,12,'84.68092','-16.07888',sysdate ,'Donec');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,13,13,'100.07342','-52.27423',sysdate ,'lectus');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,14,14,'-98.56922','16.18448',sysdate ,'eleifend');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,15,15,'-90.05697','24.91199',sysdate ,'magsd');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,16,16,'-121.32799','-84.66292',sysdate ,'orci');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,17,17,'74.30236','84.14819',sysdate ,'rutrum');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,18,18,'-138.02706','39.36408',sysdate ,'ultric');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,19,19,'-48.54086','-18.23425',sysdate ,'elit');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,19,1,'-170.91225','-38.1053',sysdate ,'enim');
+
+
+--Insertando datos de tabla imagen_falla
+
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (1,1,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (2,1,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (3,1,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (4,1,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (5,1,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (6,1,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (7,1,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (8,1,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (9,1,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (10,1,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (1,2,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (2,2,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (3,2,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (4,2,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (5,2,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (6,2,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (7,2,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (8,2,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (9,2,null);
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (10,2,null);
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-insert usuario_pago (nombre, banco, clabe, servicio, no_scooters, pago_total)
+insert into usuario_pago (nombre, banco, clabe, servicio, no_scooters, pago_total)
   values(
   (select nombre 
-  from usuario
+  from usuario 
   where usuario_id = 1),
-  (select banco 
+  (select nombre_banco 
   from servicio_carga
   natural join servicio
   where usuario_id = 1),
@@ -250,7 +417,7 @@ insert usuario_pago (nombre, banco, clabe, servicio, no_scooters, pago_total)
   natural join usuario
   where usuario_id = 1
     and servicio_id = 1
-    and tipo = C),
+    and tipo = 'C'),
   (select sum(te.cantidad)
   from (
     select carga_final
@@ -261,7 +428,7 @@ insert usuario_pago (nombre, banco, clabe, servicio, no_scooters, pago_total)
     natural join usuario
     where usuario_id = 1
       and servicio_id = 1
-      and tipo = C
+      and tipo = 'C'
     )q1, tabla_pago_ext te
   where carga_final between carga_minima and carga_maxima)
 );
