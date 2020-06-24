@@ -21,8 +21,8 @@ create table tabla_pago_ext (
       default directory directorio
       access parameters (
       records delimited by newline
-      badfile tmp_dir:'tabla_pago_ext_bad.log'
-      logfile tmp_dir:'tabla_pago_ext.log'
+      badfile directorio:'tabla_pago_ext_bad.log'
+      logfile directorio:'tabla_pago_ext.log'
       fields terminated by '#'
       lrtrim
     (

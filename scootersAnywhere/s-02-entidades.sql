@@ -154,8 +154,8 @@ create table tarjeta_prepago(
 prompt Creando tabla falla_scooter
 create table falla_scooter(
     falla_scooter_id number(10,0),
-    latitud number(8,5),
-    longitud number(8,5),
+    latitud number(8,5) default NULL,
+    longitud number(8,5) default NULL,
     fecha_hora date not null,
     descripcion varchar(2000) not null,
     scooter_id number not null,
@@ -171,7 +171,7 @@ prompt Creando tabla imagen_falla
 create table imagen_falla(
     no_imagen number(1,0),
     falla_scooter_id number,
-    imagen_falla blob null,
+    imagen_falla blob not null,
     constraint imagen_falla_falla_scooter_id_fk foreign key(falla_scooter_id)
     references falla_scooter(falla_scooter_id),
     constraint imagen_falla_pk primary key (falla_scooter_id, no_imagen)

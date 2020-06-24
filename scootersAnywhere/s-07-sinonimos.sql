@@ -13,6 +13,7 @@ create or replace public synonym z for zona;
 create or replace public synonym fs for falla_scooter;
 create or replace public synonym st for scooter;
 create or replace public synonym s for servicio;
+create or replace public synonym ss for status_scooter;
 
 
 prompt Ortogando permisos de lectura al usuario or_proy_invitado 
@@ -21,12 +22,14 @@ grant select on z to or_proy_invitado;
 grant select on fs to or_proy_invitado;
 grant select on st to or_proy_invitado;
 grant select on s to or_proy_invitado;
+grant select on ss to or_proy_invitado;
 
 connect or_proy_invitado/invi
 
 create or replace synonym zona for or_proy_admin.zona;
 create or replace synonym falla_scooter for or_proy_admin.falla_scooter;
 create or replace synonym scooter for or_proy_admin.scooter;
+create or replace synonym status_scooter for or_proy_admin.status_scooter;
 create or replace synonym servicio for or_proy_admin.servicio;
 
 
@@ -45,6 +48,8 @@ begin
     || t.TABLE_NAME;
     end loop;
   end;
+
+disconnect
 /
 show errors
 

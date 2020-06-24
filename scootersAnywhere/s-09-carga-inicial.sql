@@ -110,7 +110,7 @@ INSERT INTO scooter (scooter_id,matricula,codigo_consola,capacidad_max_kg,no_ser
 INSERT INTO scooter (scooter_id,matricula,codigo_consola,capacidad_max_kg,no_serie,marca_id,status_scooter_id,scooter_reemplazo_id) VALUES (seq_scooter.nextval,'W2L 6L6','718925084021802971','110','Y1MF9S4V8LF5R9B5UH',13,5,NULL);
 INSERT INTO scooter (scooter_id,matricula,codigo_consola,capacidad_max_kg,no_serie,marca_id,status_scooter_id,scooter_reemplazo_id) VALUES (seq_scooter.nextval,'N3V 4Y6','631728469489459013','110','B5TH2R4U6CP9V9M2VS',2,5,NULL);
 INSERT INTO scooter (scooter_id,matricula,codigo_consola,capacidad_max_kg,no_serie,marca_id,status_scooter_id,scooter_reemplazo_id) VALUES (seq_scooter.nextval,'X5T 3M7','097133862266961668','110','Q4ZP1B3K5CL4N0S6AQ',1,3,NULL);
-INSERT INTO scooter (scooter_id,matricula,codigo_consola,capacidad_max_kg,no_serie,marca_id,status_scooter_id,scooter_reemplazo_id) VALUES (seq_scooter.nextval,'G3S 0W7','451014119898021971','90','M2KZ5Z8M5OT2Y6N8YO',11,6,NULL);
+INSERT INTO scooter (scooter_id,matricula,codigo_consola,capacidad_max_kg,no_serie,marca_id,status_scooter_id,scooter_reemplazo_id) VALUES (seq_scooter.nextval,'G3S 0W7','451014119898021971','90','M2KZ5Z8M5OT2Y6N8YO',11,5,NULL);
 INSERT INTO scooter (scooter_id,matricula,codigo_consola,capacidad_max_kg,no_serie,marca_id,status_scooter_id,scooter_reemplazo_id) VALUES (seq_scooter.nextval,'Q2N 1T8','181441437813711567','110','U1LL8Y7W7FR1J5A9UH',7,7,NULL);
 INSERT INTO scooter (scooter_id,matricula,codigo_consola,capacidad_max_kg,no_serie,marca_id,status_scooter_id,scooter_reemplazo_id) VALUES (seq_scooter.nextval,'B3U 5S6','068279178386082765','90','L0CO0B4F2HR8K8Z1GI',19,2,NULL);
 INSERT INTO scooter (scooter_id,matricula,codigo_consola,capacidad_max_kg,no_serie,marca_id,status_scooter_id,scooter_reemplazo_id) VALUES (seq_scooter.nextval,'A5J 0R4','616573917227130256','70','E8AQ6Q6L2CP0J4K4QI',9,1,NULL);
@@ -284,45 +284,45 @@ INSERT INTO tarjeta_prepago (tarjeta_prepago_id,codigo_barras,anio_exp,mes_exp,c
 
 --Insertando datos de tabla servicio
 
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',1);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',2);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',3);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',4);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',5);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',6);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',1);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',2);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',3);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',4);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',3);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',6);
 INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',7);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',8);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',9);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',10);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',11);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',12);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',13);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',8);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',9);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',10);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',11);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',12);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'V',13);
 INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',14);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',15);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',16);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',17);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',18);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',19);
-INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'C',20);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',15);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',16);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',17);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',18);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',19);
+INSERT INTO servicio (servicio_id,fecha_inicio,tipo,usuario_id) VALUES (seq_servicio.nextval,sysdate,'R',20);
 
 
 --Insertando datos de tabla servicio_viaje
-INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (1,sysdate+(1/3),'RLG58REY2WYP4',1);
-INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (2,sysdate+(1/3),'OMT57ZIU6EKO9',2);
-INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (3,sysdate+(1/3),'XUK14OOJ0DFG0',3);
-INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (4,sysdate+(1/3),'DVM55JHH6LXM3',4);
-INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (5,sysdate+(1/3),'NPY79VPH6KCC5',5);
-INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (6,sysdate+(1/3),'BTJ91OMD5CDC7',6);
-INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (7,sysdate+(1/3),'EQD25JRS0JSZ5',7);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (7,sysdate+(1/3),'RLG58REY2WYP4',1);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (8,sysdate+(1/3),'OMT57ZIU6EKO9',2);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (9,sysdate+(1/3),'XUK14OOJ0DFG0',3);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (10,sysdate+(1/3),'DVM55JHH6LXM3',4);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (11,sysdate+(1/3),'NPY79VPH6KCC5',5);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (12,sysdate+(1/3),'BTJ91OMD5CDC7',6);
+INSERT INTO servicio_viaje (servicio_id,hora_fin,folio,scooter_id) VALUES (13,sysdate+(1/3),'EQD25JRS0JSZ5',7);
 
 --Insertando datos de tabla servicio_renta
-INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (1,11,'5081 Nulla. Av.',8);
-INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (2,5,'593-3668 Imperdiet ',9);
-INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (3,14,'4267 Sed Carretera',10);
-INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (4,12,'728 Tempor ',11);
-INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (5,6,'246-1408 Erat C/',12);
-INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (6,8,'3955 Fermentum C/',13);
-INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (7,4,'958-4264 Taciti C/',14);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (14,11,'5081 Nulla. Av.',8);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (15,5,'593-3668 Imperdiet ',9);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (16,14,'4267 Sed Carretera',10);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (17,12,'728 Tempor ',11);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (18,6,'246-1408 Erat C/',12);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (19,7,'3955 Fermentum C/',13);
+INSERT INTO servicio_renta (servicio_id,dias,direccion,scooter_id) VALUES (20,4,'958-4264 Taciti C/',14);
 
 --Insertando datos de tabla servicio_carga
 
@@ -335,62 +335,50 @@ INSERT INTO servicio_carga (servicio_id,nombre_banco,clabe) VALUES (6,'Bruno',21
 
 --Insertando datos de tabla servicio_scooter_carga
 
-INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,1,15,42);
-INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,2,16,12);
-INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,3,17,36);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,1,1,42);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,2,1,85);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,3,1,77);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,4,1,89);
+
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,2,5,12);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,3,5,36);
+
 INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,4,18,34);
-INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,5,19,90);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,5,19,89);
 INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,6,20,30);
 
 
 
 --Insertando datos de tabla falla_scooter
 
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,1,1,'-106.91987','36.90466',sysdate ,'lacus');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,2,2,'98.36597','78.95288',sysdate ,'amet');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,3,3,'-55.27878','4.85982',sysdate ,'tempus');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id, fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,11,1,sysdate ,'lacus');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,7,2,'98.36597','78.95288',sysdate ,'amet');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,3,3,sysdate ,'tempus');
 INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,4,4,'-42.06621','-2.42493',sysdate ,'Quisque');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,5,5,'0.12639','4.54074',sysdate ,'eu');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,6,6,'5.85843','81.31503',sysdate ,'sdfgafd');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,7,7,'140.71148','-46.61047',sysdate ,'neque');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,8,8,'3.60797','-12.36656',sysdate ,'faucibus');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,9,9,'-157.48563','-85.76073',sysdate ,'Nam');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,10,10,'135.1738','56.841',sysdate ,'Nullam');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,11,11,'-139.95949','-4.79632',sysdate ,'adipiscing');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,12,12,'84.68092','-16.07888',sysdate ,'Donec');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,13,13,'100.07342','-52.27423',sysdate ,'lectus');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,14,14,'-98.56922','16.18448',sysdate ,'eleifend');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,15,15,'-90.05697','24.91199',sysdate ,'magsd');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,16,16,'-121.32799','-84.66292',sysdate ,'orci');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,17,17,'74.30236','84.14819',sysdate ,'rutrum');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,18,18,'-138.02706','39.36408',sysdate ,'ultric');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,19,19,'-48.54086','-18.23425',sysdate ,'elit');
-INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,longitud,latitud,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,19,1,'-170.91225','-38.1053',sysdate ,'enim');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,9,5,sysdate ,'eu');
+INSERT INTO falla_scooter (falla_scooter_id,scooter_id,usuario_id,fecha_hora,descripcion) VALUES (seq_falla_scooter.nextval,17,6,sysdate ,'sdfgafd');
 
 
 --Insertando datos de tabla imagen_falla
 
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (1,1,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (2,1,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (3,1,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (4,1,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (5,1,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (6,1,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (7,1,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (8,1,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (9,1,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (10,1,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (1,2,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (2,2,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (3,2,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (4,2,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (5,2,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (6,2,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (7,2,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (8,2,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (9,2,null);
-INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (10,2,null);
-
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (1,1,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (1,2,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (1,3,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (1,4,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (1,5,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (2,1,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (2,2,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (2,3,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (2,4,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (2,5,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (3,1,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (3,2,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (3,3,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (4,1,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (4,2,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (4,3,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (4,4,empty_blob());
+INSERT INTO imagen_falla (falla_scooter_id,no_imagen,imagen_falla) VALUES (4,5,empty_blob());
 
 
 
@@ -407,9 +395,13 @@ insert into usuario_pago (nombre, banco, clabe, servicio, no_scooters, pago_tota
   from servicio_carga
   natural join servicio
   where usuario_id = 1),
-  (select nombre 
-  from usuario
-  where usuario_id = 1),
+  (select servicio_id
+  from servicio_carga
+  natural join servicio
+  natural join usuario
+  where usuario_id = 1
+    and servicio_id = 1
+    and tipo = 'C'),
   (select count(*)
   from servicio_carga 
   natural join scooter_servicio_carga
@@ -418,21 +410,59 @@ insert into usuario_pago (nombre, banco, clabe, servicio, no_scooters, pago_tota
   where usuario_id = 1
     and servicio_id = 1
     and tipo = 'C'),
-  (select sum(te.cantidad)
-  from (
-    select carga_final
+  (select sum(cantidad)
     from scooter_servicio_carga 
     natural join servicio_carga
-    natural join scooter_servicio_carga
     natural join servicio
-    natural join usuario
+    natural join usuario, tabla_pago_ext
     where usuario_id = 1
       and servicio_id = 1
       and tipo = 'C'
-    )q1, tabla_pago_ext te
-  where carga_final between carga_minima and carga_maxima)
+      and carga_final between carga_minima and carga_maxima)
 );
 
+insert into usuario_pago (nombre, banco, clabe, servicio, no_scooters, pago_total)
+  values(
+  (select nombre 
+  from usuario 
+  where usuario_id = 3),
+  (select nombre_banco 
+  from servicio_carga
+  natural join servicio
+  where usuario_id = 3
+    and servicio_id = 5),
+  (select clabe 
+  from servicio_carga
+  natural join servicio
+  where usuario_id = 3
+    and servicio_id = 5),
+  (select servicio_id
+  from servicio_carga
+  natural join servicio
+  natural join usuario
+  where usuario_id = 3
+    and servicio_id = 5
+    and tipo = 'C'),
+  (select count(*)
+  from servicio_carga 
+  natural join scooter_servicio_carga
+  natural join servicio
+  natural join usuario
+  where usuario_id = 3
+    and servicio_id = 5
+    and tipo = 'C'),
+  (select sum(cantidad)
+    from scooter_servicio_carga 
+    natural join servicio_carga
+    natural join servicio
+    natural join usuario, tabla_pago_ext
+    where usuario_id = 3
+      and servicio_id = 5
+      and tipo = 'C'
+      and carga_final between carga_minima and carga_maxima)
+);
+
+commit;
 
 disconnect
 /
