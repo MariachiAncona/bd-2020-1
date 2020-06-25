@@ -1,6 +1,6 @@
 
 
- LOG file opened at 06/23/20 17:28:32
+ LOG file opened at 06/25/20 12:18:34
 
 Total Number of Files=1
 
@@ -10,7 +10,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:28:32
+ LOG file opened at 06/25/20 12:18:34
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -30,11 +30,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:36:22
+ LOG file opened at 06/25/20 12:18:34
 
 Total Number of Files=1
 
@@ -44,7 +42,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:36:22
+ LOG file opened at 06/25/20 12:18:34
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -64,11 +62,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:36:22
+ LOG file opened at 06/25/20 12:18:42
 
 Total Number of Files=1
 
@@ -78,7 +74,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:36:22
+ LOG file opened at 06/25/20 12:18:42
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -98,11 +94,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:37:57
+ LOG file opened at 06/25/20 12:18:42
 
 Total Number of Files=1
 
@@ -112,7 +106,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:37:57
+ LOG file opened at 06/25/20 12:18:42
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -132,11 +126,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:37:57
+ LOG file opened at 06/25/20 12:21:15
 
 Total Number of Files=1
 
@@ -146,7 +138,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:37:57
+ LOG file opened at 06/25/20 12:21:15
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -166,11 +158,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:39:46
+ LOG file opened at 06/25/20 12:21:15
 
 Total Number of Files=1
 
@@ -180,7 +170,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:39:46
+ LOG file opened at 06/25/20 12:21:15
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -200,17 +190,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:39:46
+ LOG file opened at 06/25/20 12:21:23
 
 Total Number of Files=1
 
@@ -220,7 +202,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:39:46
+ LOG file opened at 06/25/20 12:21:23
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -240,17 +222,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:41:59
+ LOG file opened at 06/25/20 12:21:23
 
 Total Number of Files=1
 
@@ -260,7 +234,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:41:59
+ LOG file opened at 06/25/20 12:21:23
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -280,17 +254,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:41:59
+ LOG file opened at 06/25/20 12:22:49
 
 Total Number of Files=1
 
@@ -300,7 +266,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:41:59
+ LOG file opened at 06/25/20 12:22:49
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -320,17 +286,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:42:30
+ LOG file opened at 06/25/20 12:22:49
 
 Total Number of Files=1
 
@@ -340,7 +298,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:42:30
+ LOG file opened at 06/25/20 12:22:49
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -360,17 +318,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:42:30
+ LOG file opened at 06/25/20 12:22:57
 
 Total Number of Files=1
 
@@ -380,7 +330,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:42:30
+ LOG file opened at 06/25/20 12:22:57
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -400,17 +350,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:43:25
+ LOG file opened at 06/25/20 12:22:57
 
 Total Number of Files=1
 
@@ -420,7 +362,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:43:25
+ LOG file opened at 06/25/20 12:22:57
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -440,13 +382,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:43:25
+ LOG file opened at 06/25/20 12:30:36
 
 Total Number of Files=1
 
@@ -456,7 +394,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:43:25
+ LOG file opened at 06/25/20 12:30:36
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -476,13 +414,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:45:03
+ LOG file opened at 06/25/20 12:30:36
 
 Total Number of Files=1
 
@@ -492,7 +426,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:45:03
+ LOG file opened at 06/25/20 12:30:36
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -512,13 +446,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:45:03
+ LOG file opened at 06/25/20 12:30:44
 
 Total Number of Files=1
 
@@ -528,7 +458,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:45:03
+ LOG file opened at 06/25/20 12:30:44
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -548,13 +478,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:45:49
+ LOG file opened at 06/25/20 12:30:44
 
 Total Number of Files=1
 
@@ -564,7 +490,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:45:49
+ LOG file opened at 06/25/20 12:30:44
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -584,17 +510,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:45:49
+ LOG file opened at 06/25/20 12:31:38
 
 Total Number of Files=1
 
@@ -604,7 +522,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:45:49
+ LOG file opened at 06/25/20 12:31:38
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -624,17 +542,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:45:49
+ LOG file opened at 06/25/20 12:31:38
 
 Total Number of Files=1
 
@@ -644,7 +554,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:45:49
+ LOG file opened at 06/25/20 12:31:38
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -664,17 +574,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:47:51
+ LOG file opened at 06/25/20 12:31:45
 
 Total Number of Files=1
 
@@ -684,7 +586,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:47:51
+ LOG file opened at 06/25/20 12:31:45
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -704,17 +606,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:47:51
+ LOG file opened at 06/25/20 12:31:45
 
 Total Number of Files=1
 
@@ -724,7 +618,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:47:51
+ LOG file opened at 06/25/20 12:31:45
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -744,17 +638,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:47:51
+ LOG file opened at 06/25/20 12:33:46
 
 Total Number of Files=1
 
@@ -764,7 +650,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:47:51
+ LOG file opened at 06/25/20 12:33:46
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -784,17 +670,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:49:40
+ LOG file opened at 06/25/20 12:33:47
 
 Total Number of Files=1
 
@@ -804,7 +682,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:49:40
+ LOG file opened at 06/25/20 12:33:47
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -824,17 +702,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:49:40
+ LOG file opened at 06/25/20 12:33:53
 
 Total Number of Files=1
 
@@ -844,7 +714,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:49:40
+ LOG file opened at 06/25/20 12:33:53
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -864,11 +734,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:49:40
+ LOG file opened at 06/25/20 12:33:53
 
 Total Number of Files=1
 
@@ -878,7 +746,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:49:40
+ LOG file opened at 06/25/20 12:33:53
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -898,17 +766,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:49:40
+ LOG file opened at 06/25/20 12:36:57
 
 Total Number of Files=1
 
@@ -918,7 +778,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:49:40
+ LOG file opened at 06/25/20 12:36:57
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -938,17 +798,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:50:20
+ LOG file opened at 06/25/20 12:36:57
 
 Total Number of Files=1
 
@@ -958,7 +810,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:50:20
+ LOG file opened at 06/25/20 12:36:57
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -978,17 +830,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:50:20
+ LOG file opened at 06/25/20 12:37:04
 
 Total Number of Files=1
 
@@ -998,7 +842,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:50:20
+ LOG file opened at 06/25/20 12:37:04
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1018,11 +862,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:50:20
+ LOG file opened at 06/25/20 12:37:04
 
 Total Number of Files=1
 
@@ -1032,7 +874,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:50:20
+ LOG file opened at 06/25/20 12:37:04
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1052,17 +894,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:50:20
+ LOG file opened at 06/25/20 14:16:01
 
 Total Number of Files=1
 
@@ -1072,7 +906,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:50:20
+ LOG file opened at 06/25/20 14:16:01
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1092,17 +926,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:52:29
+ LOG file opened at 06/25/20 14:16:01
 
 Total Number of Files=1
 
@@ -1112,7 +938,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:52:29
+ LOG file opened at 06/25/20 14:16:01
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1132,17 +958,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:52:29
+ LOG file opened at 06/25/20 14:16:08
 
 Total Number of Files=1
 
@@ -1152,7 +970,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:52:29
+ LOG file opened at 06/25/20 14:16:08
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1172,11 +990,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:52:29
+ LOG file opened at 06/25/20 14:16:08
 
 Total Number of Files=1
 
@@ -1186,7 +1002,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:52:29
+ LOG file opened at 06/25/20 14:16:08
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1206,17 +1022,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:52:29
+ LOG file opened at 06/25/20 14:17:23
 
 Total Number of Files=1
 
@@ -1226,7 +1034,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:52:29
+ LOG file opened at 06/25/20 14:17:24
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1246,17 +1054,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:53:39
+ LOG file opened at 06/25/20 14:17:24
 
 Total Number of Files=1
 
@@ -1266,7 +1066,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:53:39
+ LOG file opened at 06/25/20 14:17:24
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1286,17 +1086,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:53:39
+ LOG file opened at 06/25/20 14:17:31
 
 Total Number of Files=1
 
@@ -1306,7 +1098,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:53:39
+ LOG file opened at 06/25/20 14:17:32
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1326,11 +1118,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:53:39
+ LOG file opened at 06/25/20 14:17:32
 
 Total Number of Files=1
 
@@ -1340,7 +1130,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:53:39
+ LOG file opened at 06/25/20 14:17:32
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1360,17 +1150,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:53:39
+ LOG file opened at 06/25/20 14:18:31
 
 Total Number of Files=1
 
@@ -1380,7 +1162,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:53:39
+ LOG file opened at 06/25/20 14:18:32
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1400,17 +1182,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:54:14
+ LOG file opened at 06/25/20 14:18:32
 
 Total Number of Files=1
 
@@ -1420,7 +1194,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:54:14
+ LOG file opened at 06/25/20 14:18:32
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1440,17 +1214,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:54:14
+ LOG file opened at 06/25/20 14:18:38
 
 Total Number of Files=1
 
@@ -1460,7 +1226,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:54:14
+ LOG file opened at 06/25/20 14:18:38
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1480,11 +1246,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:54:14
+ LOG file opened at 06/25/20 14:18:38
 
 Total Number of Files=1
 
@@ -1494,7 +1258,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:54:14
+ LOG file opened at 06/25/20 14:18:38
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1514,17 +1278,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:54:14
+ LOG file opened at 06/25/20 14:20:47
 
 Total Number of Files=1
 
@@ -1534,7 +1290,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:54:14
+ LOG file opened at 06/25/20 14:20:47
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1554,17 +1310,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:55:38
+ LOG file opened at 06/25/20 14:20:48
 
 Total Number of Files=1
 
@@ -1574,7 +1322,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:55:38
+ LOG file opened at 06/25/20 14:20:48
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1594,25 +1342,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:55:38
+ LOG file opened at 06/25/20 14:20:56
 
 Total Number of Files=1
 
@@ -1622,7 +1354,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:55:38
+ LOG file opened at 06/25/20 14:20:56
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1642,13 +1374,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:55:38
+ LOG file opened at 06/25/20 14:20:56
 
 Total Number of Files=1
 
@@ -1658,7 +1386,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:55:38
+ LOG file opened at 06/25/20 14:20:56
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1678,25 +1406,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:55:38
+ LOG file opened at 06/25/20 14:23:49
 
 Total Number of Files=1
 
@@ -1706,7 +1418,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:55:38
+ LOG file opened at 06/25/20 14:23:49
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1726,25 +1438,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MINIMA in row 11 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:58:30
+ LOG file opened at 06/25/20 14:23:49
 
 Total Number of Files=1
 
@@ -1754,7 +1450,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:58:30
+ LOG file opened at 06/25/20 14:23:49
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1774,17 +1470,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:58:30
+ LOG file opened at 06/25/20 14:23:57
 
 Total Number of Files=1
 
@@ -1794,7 +1482,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:58:30
+ LOG file opened at 06/25/20 14:23:57
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1814,11 +1502,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:58:30
+ LOG file opened at 06/25/20 14:23:57
 
 Total Number of Files=1
 
@@ -1828,7 +1514,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:58:30
+ LOG file opened at 06/25/20 14:23:57
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1848,17 +1534,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:58:30
+ LOG file opened at 06/25/20 15:12:45
 
 Total Number of Files=1
 
@@ -1868,7 +1546,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:58:30
+ LOG file opened at 06/25/20 15:12:45
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1888,17 +1566,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:58:54
+ LOG file opened at 06/25/20 15:12:45
 
 Total Number of Files=1
 
@@ -1908,7 +1578,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:58:54
+ LOG file opened at 06/25/20 15:12:45
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1928,17 +1598,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:58:54
+ LOG file opened at 06/25/20 15:12:52
 
 Total Number of Files=1
 
@@ -1948,7 +1610,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:58:54
+ LOG file opened at 06/25/20 15:12:52
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -1968,11 +1630,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:58:54
+ LOG file opened at 06/25/20 15:12:52
 
 Total Number of Files=1
 
@@ -1982,7 +1642,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:58:54
+ LOG file opened at 06/25/20 15:12:52
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2002,17 +1662,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 17:58:54
+ LOG file opened at 06/25/20 15:14:34
 
 Total Number of Files=1
 
@@ -2022,7 +1674,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 17:58:54
+ LOG file opened at 06/25/20 15:14:34
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2042,17 +1694,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:05:59
+ LOG file opened at 06/25/20 15:14:34
 
 Total Number of Files=1
 
@@ -2062,7 +1706,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:05:59
+ LOG file opened at 06/25/20 15:14:34
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2082,17 +1726,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:05:59
+ LOG file opened at 06/25/20 15:14:43
 
 Total Number of Files=1
 
@@ -2102,7 +1738,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:05:59
+ LOG file opened at 06/25/20 15:14:43
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2122,11 +1758,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:05:59
+ LOG file opened at 06/25/20 15:14:43
 
 Total Number of Files=1
 
@@ -2136,7 +1770,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:05:59
+ LOG file opened at 06/25/20 15:14:43
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2156,17 +1790,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:05:59
+ LOG file opened at 06/25/20 15:17:14
 
 Total Number of Files=1
 
@@ -2176,7 +1802,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:05:59
+ LOG file opened at 06/25/20 15:17:14
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2196,17 +1822,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:07:24
+ LOG file opened at 06/25/20 15:17:14
 
 Total Number of Files=1
 
@@ -2216,7 +1834,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:07:24
+ LOG file opened at 06/25/20 15:17:14
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2236,17 +1854,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:13:01
+ LOG file opened at 06/25/20 15:17:24
 
 Total Number of Files=1
 
@@ -2256,7 +1866,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:13:02
+ LOG file opened at 06/25/20 15:17:24
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2276,17 +1886,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:16:37
+ LOG file opened at 06/25/20 15:17:24
 
 Total Number of Files=1
 
@@ -2296,7 +1898,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:16:37
+ LOG file opened at 06/25/20 15:17:24
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2316,17 +1918,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:17:29
+ LOG file opened at 06/25/20 15:17:54
 
 Total Number of Files=1
 
@@ -2336,7 +1930,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:17:29
+ LOG file opened at 06/25/20 15:17:54
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2356,17 +1950,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:18:32
+ LOG file opened at 06/25/20 15:17:54
 
 Total Number of Files=1
 
@@ -2376,7 +1962,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:18:32
+ LOG file opened at 06/25/20 15:17:54
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2396,17 +1982,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:18:32
+ LOG file opened at 06/25/20 15:18:02
 
 Total Number of Files=1
 
@@ -2416,7 +1994,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:18:32
+ LOG file opened at 06/25/20 15:18:02
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2436,13 +2014,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:31:44
+ LOG file opened at 06/25/20 15:18:02
 
 Total Number of Files=1
 
@@ -2452,7 +2026,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:31:44
+ LOG file opened at 06/25/20 15:18:02
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2472,17 +2046,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:31:44
+ LOG file opened at 06/25/20 15:19:08
 
 Total Number of Files=1
 
@@ -2492,7 +2058,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:31:44
+ LOG file opened at 06/25/20 15:19:08
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2512,13 +2078,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:32:26
+ LOG file opened at 06/25/20 15:19:08
 
 Total Number of Files=1
 
@@ -2528,7 +2090,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:32:26
+ LOG file opened at 06/25/20 15:19:08
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2548,17 +2110,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:32:26
+ LOG file opened at 06/25/20 15:19:15
 
 Total Number of Files=1
 
@@ -2568,7 +2122,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:32:26
+ LOG file opened at 06/25/20 15:19:15
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2588,13 +2142,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:34:08
+ LOG file opened at 06/25/20 15:19:15
 
 Total Number of Files=1
 
@@ -2604,7 +2154,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:34:08
+ LOG file opened at 06/25/20 15:19:15
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2624,17 +2174,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:34:09
+ LOG file opened at 06/25/20 15:21:14
 
 Total Number of Files=1
 
@@ -2644,7 +2186,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:34:09
+ LOG file opened at 06/25/20 15:21:14
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2664,13 +2206,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:34:43
+ LOG file opened at 06/25/20 15:21:14
 
 Total Number of Files=1
 
@@ -2680,7 +2218,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:34:43
+ LOG file opened at 06/25/20 15:21:14
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2700,17 +2238,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:34:43
+ LOG file opened at 06/25/20 15:21:22
 
 Total Number of Files=1
 
@@ -2720,7 +2250,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:34:43
+ LOG file opened at 06/25/20 15:21:22
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2740,13 +2270,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:41:12
+ LOG file opened at 06/25/20 15:21:22
 
 Total Number of Files=1
 
@@ -2756,7 +2282,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:41:12
+ LOG file opened at 06/25/20 15:21:22
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2776,17 +2302,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:41:12
+ LOG file opened at 06/25/20 15:25:08
 
 Total Number of Files=1
 
@@ -2796,7 +2314,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:41:12
+ LOG file opened at 06/25/20 15:25:08
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2816,13 +2334,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:41:43
+ LOG file opened at 06/25/20 15:25:08
 
 Total Number of Files=1
 
@@ -2832,7 +2346,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:41:43
+ LOG file opened at 06/25/20 15:25:08
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2852,17 +2366,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:41:43
+ LOG file opened at 06/25/20 15:25:15
 
 Total Number of Files=1
 
@@ -2872,7 +2378,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:41:43
+ LOG file opened at 06/25/20 15:25:15
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2892,13 +2398,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:44:44
+ LOG file opened at 06/25/20 15:25:15
 
 Total Number of Files=1
 
@@ -2908,7 +2410,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:44:44
+ LOG file opened at 06/25/20 15:25:15
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2928,17 +2430,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:44:44
+ LOG file opened at 06/25/20 15:25:51
 
 Total Number of Files=1
 
@@ -2948,7 +2442,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:44:44
+ LOG file opened at 06/25/20 15:25:51
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -2968,13 +2462,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:49:13
+ LOG file opened at 06/25/20 15:25:51
 
 Total Number of Files=1
 
@@ -2984,7 +2474,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:49:13
+ LOG file opened at 06/25/20 15:25:51
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3004,17 +2494,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:49:13
+ LOG file opened at 06/25/20 15:25:58
 
 Total Number of Files=1
 
@@ -3024,7 +2506,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:49:13
+ LOG file opened at 06/25/20 15:25:58
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3044,13 +2526,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:50:36
+ LOG file opened at 06/25/20 15:25:58
 
 Total Number of Files=1
 
@@ -3060,7 +2538,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:50:36
+ LOG file opened at 06/25/20 15:25:58
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3080,17 +2558,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:50:36
+ LOG file opened at 06/25/20 15:37:40
 
 Total Number of Files=1
 
@@ -3100,7 +2570,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:50:36
+ LOG file opened at 06/25/20 15:37:40
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3120,13 +2590,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:54:27
+ LOG file opened at 06/25/20 15:37:40
 
 Total Number of Files=1
 
@@ -3136,7 +2602,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:54:27
+ LOG file opened at 06/25/20 15:37:40
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3156,17 +2622,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:54:27
+ LOG file opened at 06/25/20 15:37:47
 
 Total Number of Files=1
 
@@ -3176,7 +2634,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:54:27
+ LOG file opened at 06/25/20 15:37:47
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3196,13 +2654,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:56:47
+ LOG file opened at 06/25/20 15:37:47
 
 Total Number of Files=1
 
@@ -3212,7 +2666,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:56:47
+ LOG file opened at 06/25/20 15:37:47
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3232,17 +2686,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 18:56:47
+ LOG file opened at 06/25/20 15:38:16
 
 Total Number of Files=1
 
@@ -3252,7 +2698,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 18:56:47
+ LOG file opened at 06/25/20 15:38:16
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3272,13 +2718,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:07:45
+ LOG file opened at 06/25/20 15:38:16
 
 Total Number of Files=1
 
@@ -3288,7 +2730,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:07:45
+ LOG file opened at 06/25/20 15:38:16
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3308,17 +2750,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:07:45
+ LOG file opened at 06/25/20 15:38:23
 
 Total Number of Files=1
 
@@ -3328,7 +2762,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:07:45
+ LOG file opened at 06/25/20 15:38:23
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3348,13 +2782,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:10:25
+ LOG file opened at 06/25/20 15:38:23
 
 Total Number of Files=1
 
@@ -3364,7 +2794,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:10:25
+ LOG file opened at 06/25/20 15:38:23
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3384,17 +2814,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:10:25
+ LOG file opened at 06/25/20 15:39:58
 
 Total Number of Files=1
 
@@ -3404,7 +2826,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:10:25
+ LOG file opened at 06/25/20 15:39:58
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3424,13 +2846,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:13:42
+ LOG file opened at 06/25/20 15:39:58
 
 Total Number of Files=1
 
@@ -3440,7 +2858,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:13:42
+ LOG file opened at 06/25/20 15:39:58
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3460,17 +2878,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:13:42
+ LOG file opened at 06/25/20 15:40:04
 
 Total Number of Files=1
 
@@ -3480,7 +2890,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:13:42
+ LOG file opened at 06/25/20 15:40:04
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3500,13 +2910,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:29:23
+ LOG file opened at 06/25/20 15:40:04
 
 Total Number of Files=1
 
@@ -3516,7 +2922,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:29:23
+ LOG file opened at 06/25/20 15:40:04
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3536,17 +2942,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:29:23
+ LOG file opened at 06/25/20 15:43:37
 
 Total Number of Files=1
 
@@ -3556,7 +2954,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:29:23
+ LOG file opened at 06/25/20 15:43:37
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3576,13 +2974,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:30:27
+ LOG file opened at 06/25/20 15:43:37
 
 Total Number of Files=1
 
@@ -3592,7 +2986,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:30:27
+ LOG file opened at 06/25/20 15:43:37
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3612,17 +3006,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:30:27
+ LOG file opened at 06/25/20 15:43:44
 
 Total Number of Files=1
 
@@ -3632,7 +3018,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:30:27
+ LOG file opened at 06/25/20 15:43:44
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3652,13 +3038,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:32:44
+ LOG file opened at 06/25/20 15:43:44
 
 Total Number of Files=1
 
@@ -3668,7 +3050,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:32:44
+ LOG file opened at 06/25/20 15:43:44
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3688,17 +3070,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:32:44
+ LOG file opened at 06/25/20 15:55:01
 
 Total Number of Files=1
 
@@ -3708,7 +3082,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:32:44
+ LOG file opened at 06/25/20 15:55:01
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3728,13 +3102,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:34:58
+ LOG file opened at 06/25/20 15:55:01
 
 Total Number of Files=1
 
@@ -3744,7 +3114,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:34:58
+ LOG file opened at 06/25/20 15:55:01
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3764,17 +3134,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:34:58
+ LOG file opened at 06/25/20 15:55:08
 
 Total Number of Files=1
 
@@ -3784,7 +3146,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:34:58
+ LOG file opened at 06/25/20 15:55:08
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3804,13 +3166,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:36:08
+ LOG file opened at 06/25/20 15:55:08
 
 Total Number of Files=1
 
@@ -3820,7 +3178,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:36:08
+ LOG file opened at 06/25/20 15:55:08
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3840,17 +3198,9 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
 
 
- LOG file opened at 06/23/20 19:36:08
+ LOG file opened at 06/25/20 15:57:37
 
 Total Number of Files=1
 
@@ -3860,7 +3210,7 @@ Log File: tabla_pago_ext.log
 
 
 
- LOG file opened at 06/23/20 19:36:08
+ LOG file opened at 06/25/20 15:57:37
 
 Bad File: tabla_pago_ext_bad.log
 
@@ -3880,7 +3230,739 @@ Field Definitions for table TABLA_PAGO_EXT
     CANTIDAD                        CHAR (255)
       Terminated by "#"
       Trim whitespace from left and right
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
-error processing column CARGA_MAXIMA in row 10 for datafile /home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/tabla_pago_ext.csv
-ORA-01438: value larger than specified precision allowed for this column
+
+
+ LOG file opened at 06/25/20 15:57:38
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 15:57:38
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 15:57:44
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 15:57:44
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 15:57:44
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 15:57:44
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:04:48
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:04:48
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:04:48
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:04:48
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:39:37
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:39:37
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:39:37
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:39:37
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:41:50
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:41:50
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:41:50
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:41:50
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:42:11
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:42:11
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:42:11
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:42:11
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:46:11
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:46:11
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:46:11
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:46:11
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:46:53
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:46:53
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:46:53
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:46:53
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:50:22
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:50:22
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:50:22
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:50:22
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:51:14
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:51:14
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:51:14
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:51:14
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:54:25
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:54:25
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:54:25
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:54:25
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:54:32
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:54:32
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+
+
+ LOG file opened at 06/25/20 16:54:32
+
+Total Number of Files=1
+
+Data File: tabla_pago_ext.csv
+
+Log File: tabla_pago_ext.log
+
+
+
+ LOG file opened at 06/25/20 16:54:32
+
+Bad File: tabla_pago_ext_bad.log
+
+Field Definitions for table TABLA_PAGO_EXT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CARGA_MINIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CARGA_MAXIMA                    CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right
+    CANTIDAD                        CHAR (255)
+      Terminated by "#"
+      Trim whitespace from left and right

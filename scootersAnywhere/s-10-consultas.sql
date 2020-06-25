@@ -1,6 +1,6 @@
 --@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo 
 --@Fecha creación:  21/06/2020
---@Descripción:     Consultas
+--@Descripción:     Consultas para completar las que faltan de utilizar
 
 
 prompt Conectando como usuario invitado para hacer consultas
@@ -40,6 +40,7 @@ on fs.falla_scooter_id = i.falla_scooter_id;
 select * from v_nombre_zona_sccoter;
 select * from v_scooter_marca_falla;
 select * from v_usuario_tarjetas;
+
 
 disconnect
 

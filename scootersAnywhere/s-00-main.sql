@@ -20,3 +20,10 @@ disconnect
 @s-08-vistas.sql
 @s-09-carga-inicial.sql
 @s-10-consultas.sql
+
+@s-13-p-registra_falla.sql
+
+@s-11-tr-falla-scooter.sql
+@s-12-trg-falla-scooter-prueba.sql
+
+@resultados-proyecto-final.sql

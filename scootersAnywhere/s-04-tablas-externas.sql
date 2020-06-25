@@ -11,7 +11,7 @@ prompt Creando tabla externa
 
 create table tabla_pago_ext (
   carga_minima number(2,0),
-  carga_maxima number(2,0),
+  carga_maxima number(3,0),
   cantidad number(4,2)
   )
   organization external (

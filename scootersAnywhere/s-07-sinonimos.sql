@@ -49,7 +49,7 @@ begin
     end loop;
   end;
 
-disconnect
+
 /
 show errors
 

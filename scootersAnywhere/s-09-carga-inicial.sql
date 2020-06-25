@@ -213,16 +213,16 @@ INSERT INTO ubicacion_scooter (ubicacion_scooter_id,latitud,scooter_id,fecha_hor
 
 --Insertando datos de tabla usuario
 
-INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Leigh','Howe','Hebert','OUP78FTT1PK',8682,'odio.Phasellus@magnis.org');
-INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Amaya','Charles','Dawson','WQJ24YHU5LE',9274,'ac.facilisis@ligula.ca');
-INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Erica','Kent','Nixon','TDX75TDC9ZH',6292,'consequat.auctor.nunc@nunc.org');
-INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Alden','Figueroa','Barton','CTE32LJE3LF',4743,'elit.elit@fames.com');
-INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Libby','Delacruz','Weaver','IDR32FDS7EN',419,'lectus@semmagna.net');
-INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Igor','Acevedo','Melendez','JEW94TSW9PK',1235,'ante.lectus@senectusetnetus.co.uk');
-INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Yoshio','Cameron','Collins','FIE79KVJ8JM',1920,'non.luctus.sit@orcilobortis.ca');
-INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Kieran','Baldwin','Mills','ODP29SJK2LP',5378,'eu.neque@commodoauctor.org');
-INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Uma','Hoover','Rojas','FNE52VAU0FT',599,'a@amet.org');
-INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Ferdinand','Bates','Odom','ZIH78AXQ5EJ',4836,'elit@leoelementumsem.edu');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Leigh','Howe','Hebert','OUP78FTT1PK',0,'odio.Phasellus@magnis.org');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Amaya','Charles','Dawson','WQJ24YHU5LE',0,'ac.facilisis@ligula.ca');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Erica','Kent','Nixon','TDX75TDC9ZH',0,'consequat.auctor.nunc@nunc.org');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Alden','Figueroa','Barton','CTE32LJE3LF',0,'elit.elit@fames.com');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Libby','Delacruz','Weaver','IDR32FDS7EN',0,'lectus@semmagna.net');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Igor','Acevedo','Melendez','JEW94TSW9PK',0,'ante.lectus@senectusetnetus.co.uk');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Yoshio','Cameron','Collins','FIE79KVJ8JM',0,'non.luctus.sit@orcilobortis.ca');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Kieran','Baldwin','Mills','ODP29SJK2LP',0,'eu.neque@commodoauctor.org');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Uma','Hoover','Rojas','FNE52VAU0FT',0,'a@amet.org');
+INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Ferdinand','Bates','Odom','ZIH78AXQ5EJ',0,'elit@leoelementumsem.edu');
 INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Emmanuel','Fernandez','Nielsen','DYW48JIE9MR',7086,'euismod.ac.fermentum@metus.co.uk');
 INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Germane','Hansen','Marshall','QJL33KKU0RI',3853,'ac@Nullatinciduntneque.ca');
 INSERT INTO usuario (usuario_id,nombre,apellido_paterno,apellido_materno,contraseña,puntos_recompensa,email) VALUES (seq_usuario.nextval,'Carson','Mcfadden','Pickett','WER25GGK0TR',3217,'mi@dignissimpharetraNam.com');
@@ -338,9 +338,9 @@ INSERT INTO servicio_carga (servicio_id,nombre_banco,clabe) VALUES (6,'Bruno',21
 INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,1,1,42);
 INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,2,1,85);
 INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,3,1,77);
-INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,4,1,89);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,4,1,99);
 
-INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,2,5,12);
+INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,2,5,96);
 INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,3,5,36);
 
 INSERT INTO scooter_servicio_carga (scooter_servicio_carga_id,scooter_id,servicio_id,carga_final) VALUES (seq_scooter_servicio_carga.nextval,4,18,34);
@@ -461,6 +461,8 @@ insert into usuario_pago (nombre, banco, clabe, servicio, no_scooters, pago_tota
       and tipo = 'C'
       and carga_final between carga_minima and carga_maxima)
 );
+
+
 
 commit;
 
