@@ -2,7 +2,7 @@ prompt Conectando como usuario admin para crear tablas
 connect or_proy_admin/admin
 
 create or replace procedure carga_imagen(p_falla_scooter_id out number,
-  p_no_imagen, p_nombre_archivo in varchar2) is
+  p_no_imagen in number, p_nombre_archivo in varchar2) is
 
   v_bfile bfile;
   v_src_offset number := 1;
@@ -13,7 +13,7 @@ create or replace procedure carga_imagen(p_falla_scooter_id out number,
 
 begin
 
-  v_bfile := bfilename(directorio, p_nombre_archivo);
+  v_bfile := bfilename('DIRECTORIO', p_nombre_archivo);
 
   if dbms_lob.fileexists(v_bfile) = 1 and not
     dbms_lob.isopen(v_bfile) = 1 then
@@ -22,8 +22,7 @@ begin
     else
     raise_application_error(-20001,'El archivo '
     ||p_nombre_archivo
-    ||' no existe en el directorio '
-    ||to_char(directorio)
+    ||' no existe en el directorio DIRECTORIO'
     ||' o el archivo esta abierto');
   end if;
 
