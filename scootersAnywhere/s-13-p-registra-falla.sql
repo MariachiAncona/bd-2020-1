@@ -1,3 +1,7 @@
+--@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo 
+--@Fecha creación:  20/06/2020
+--@Descripción:     Creación de procedimiento para que al registrar una falla 
+                  --realice las acciones para complementar reglsa de negocio.
 
 
 prompt Conectando como usuario admin para crear tablas

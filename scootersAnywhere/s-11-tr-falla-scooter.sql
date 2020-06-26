@@ -1,7 +1,8 @@
 --@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo 
 --@Fecha creación:  20/06/2020
---@Descripción:     Creación de trigger que actualiza el status cuando se 
-                    --ingresa una falla scooter
+--@Descripción:     Creación de trigger que actualiza el status de un scooter cuando se 
+                  --ingresa una falla scooter, ingresa datos en el historico y 
+                  --actualiza valor de puntos de un usuario.
 
 prompt Conectando como usuario admin para crear tablas
 connect or_proy_admin/admin

@@ -14,5 +14,7 @@ create global temporary table usuario_pago(
     pago_total number(5,2)
 ) on commit preserve rows;
 
+
+
 disconnect
 /

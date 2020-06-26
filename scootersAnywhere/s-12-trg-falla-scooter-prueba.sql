@@ -1,3 +1,8 @@
+--@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo 
+--@Fecha creación:  20/06/2020
+--@Descripción:     Prueba de trigger falla_scooter
+
+
 prompt Conectando como usuario admin para crear tablas
 connect or_proy_admin/admin
 

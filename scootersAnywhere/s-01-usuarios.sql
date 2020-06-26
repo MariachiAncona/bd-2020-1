@@ -24,7 +24,12 @@ create synonym, create procedure to rol_admin;
 create or replace directory directorio 
   as '/home/simon/Desktop/BD/bd-2020-1/scootersAnywhere';
 
+create or replace directory imagen_dir
+  as  '/home/simon/Desktop/BD/bd-2020-1/scootersAnywhere/imagen';
+
 grant read, write on directory directorio to rol_admin;
+
+grant read on directory imagen_dir to or_proy_admin;
 
 prompt Creando role invitado
 create role rol_invitado;

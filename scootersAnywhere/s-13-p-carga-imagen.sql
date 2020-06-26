@@ -1,7 +1,11 @@
+--@Autor(es):       Eliezer Jair Ochoa Santos, Ramírez Ancona Simón Eduardo 
+--@Fecha creación:  20/06/2020
+--@Descripción:     Procedimiento opcional ya que se encuentra dentro de compound trigger.
+
 prompt Conectando como usuario admin para crear tablas
 connect or_proy_admin/admin
 
-create or replace procedure carga_imagen(p_falla_scooter_id out number,
+create or replace procedure carga_imagen(p_falla_scooter_id in number,
   p_no_imagen in number, p_nombre_archivo in varchar2) is
 
   v_bfile bfile;
@@ -13,7 +17,8 @@ create or replace procedure carga_imagen(p_falla_scooter_id out number,
 
 begin
 
-  v_bfile := bfilename('DIRECTORIO', p_nombre_archivo);
+  v_bfile := bfilename('IMAGEN_DIR', p_nombre_archivo);
+  
 
   if dbms_lob.fileexists(v_bfile) = 1 and not
     dbms_lob.isopen(v_bfile) = 1 then
@@ -22,19 +27,16 @@ begin
     else
     raise_application_error(-20001,'El archivo '
     ||p_nombre_archivo
-    ||' no existe en el directorio DIRECTORIO'
+    ||' no existe en el directorio IMAGEN_DIR'
     ||' o el archivo esta abierto');
   end if;
 
-  select seq_falla_scooter.nextval into p_falla_scooter_id
-  from dual;
-
-  insert into imagen_falla(falla_scooter_id,no_imagen,imagen_falla)
-  values(p_falla_scooter_id,p_no_imagen,empty_blob());
+  v_dest_blob := empty_blob();
 
   select imagen_falla into v_dest_blob
   from imagen_falla
-  where falla_scooter_id = p_falla_scooter_id;
+  where falla_scooter_id = p_falla_scooter_id
+  for update;
 
   dbms_lob.loadblobfromfile(
   dest_lob => v_dest_blob,
